@@ -69,10 +69,37 @@ the optimal solution won't save you.
 
 - **Main roadmap:** [Neetcode 250](https://neetcode.io/practice) followed in order
 - **Volume:** ~200 LeetCode + 50 competitive programming + 50 Advent of Code
-- **Pacing:** 1-2 problems/weekday, 5-10 on free days
+- **Pacing:** 1-2 problems/weekday, 5-8 on free days
 - **Method:** 2-3 weeks per topic → mock interview → next topic
 - **Retention:** Spaced repetition — redo same problems after weeks, not days
 - **Mock interviews:** With mentor, friend, or AI after each topic block
+
+### Difficulty Distribution
+
+Don't waste too much time on Hard problems — they rarely show up in internships.
+
+| Difficulty | Time Allocation | Why |
+|------------|-----------------|-----|
+| **Medium** | ~70% | These are the bread and butter of most interviews. Master them. |
+| **Easy** | ~30% | Don't skip them — some are tricky and teach fundamental patterns you'll need for Mediums. |
+| **Hard** | Minimal | Only touch these if you're genuinely curious or have extra time. Low ROI for internships. |
+
+### How I Tackled Each Topic
+
+For every new topic, I followed this order exactly (same as the Neetcode structure):
+
+1. Solve **all Easy** problems first — build muscle memory for the pattern
+2. Move to **Mediums** — apply the pattern to more complex scenarios
+3. Only then touch **Hards** — and only the most relevant ones
+
+This progression worked well because Easies gave me confidence and fluency before tackling
+the difficulty level that actually matters. Adjust based on what makes sense for you.
+
+> ⚠️ **Don't jump around randomly.** I tried solving random problems and it backfired — you end up
+> facing techniques you've never seen, feel awful, and waste time. Stick to one topic at a time.
+> Speaking from painful personal experience. 😅
+
+**Resources:** [Neetcode](https://neetcode.io) · [LeetCode](https://leetcode.com) · [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850) · [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms)
 
 > Competitive programming and Advent of Code were personal hobbies — high math focus,
 > low ROI for standard interviews. Don't feel pressured.

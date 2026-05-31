@@ -6,7 +6,7 @@ Written by a student who went through the process, failed a lot, learned more, a
 **Goal:** help you shorten your learning curve with honest, actionable information — the kind you
 don't always find on international forums because hiring realities differ in Brazil.
 
-Questions? Reach out on [LinkedIn](https://linkedin.com/in/your-profile).
+Questions? Reach out on [LinkedIn](https://www.linkedin.com/in/amanda-fernandes-software-engineer/).
 
 ---
 

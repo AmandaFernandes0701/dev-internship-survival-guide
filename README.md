@@ -17,6 +17,20 @@ project repositories so you can see real code, real structures, and real solutio
 
 ---
 
+## Table of Contents
+
+- [Internship Types & Preparation Strategy](#internship-types--preparation-strategy)
+- [Live Coding vs Take-Home Projects](#live-coding-vs-take-home-projects)
+- [Study Plan (TL;DR)](#study-plan-tldr)
+- [Behavioral Prep](#behavioral-prep)
+- [Gen-AI Internships (New Trend)](#gen-ai-internships-new-trend)
+- [Company Experiences](#company-experiences)
+  - [Live Coding](#live-coding)
+  - [Take-Home Projects](#take-home-projects)
+- [A Note on Mental Health](#a-note-on-mental-health)
+
+---
+
 ## Internship Types & Preparation Strategy
 
 | Type | Duration | Typical Profile | Difficulty | Focus |

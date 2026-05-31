@@ -96,9 +96,7 @@ Both formats test your engineering thinking, but the muscle you need to exercise
 
 ### 📅 My Honest Timeline
 
-I started from absolute zero: weak CS fundamentals, no competitive programming background, nothing.  
-A huge chunk of my time wasn’t just solving problems — it was learning the theory behind them first.  
-Big O notation, data structures from scratch, recursion that didn’t make my brain crash.
+I started from scratch, and a huge part of the journey wasn't solving problems—it was learning the fundamentals first. Understanding Big O notation and data structures laid the foundation for everything that came after.
 
 I spent roughly **1 year** preparing, but it was completely unbalanced:
 

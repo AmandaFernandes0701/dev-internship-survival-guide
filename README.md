@@ -435,6 +435,7 @@ Every rejection is data. Every interview teaches something. Keep going.
 - 📋 [Grind 75](https://www.techinterviewhandbook.org/grind75) – adaptive, less overwhelming.
 - 📋 [Sean Prashad LeetCode Patterns](https://seanprashad.com/leetcode-patterns/) – grouped by pattern, excellent for after topic study.
 - 📊 [LeetCode Progress Tracker (Notion template)](https://www.notion.so/templates/leetcode-progress-tracker) – keep yourself accountable.
+- 📘 [Leandro Moreira’s Prep Guide (PT-BR)](https://docs.google.com/document/d/1gRL6ILI2XI8_eFGCrr-Q_ZxkdcnzECa-WN0kX0GVIDc/edit) – complete FAANG-style roadmap: process, spaced repetition, mock interviews, exercise recommendations, and a 1‑month vs. long‑term plan. Highly practical for Brazilian candidates.
 
 ### Competitive Programming (Optional, Low ROI)
 

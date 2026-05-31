@@ -439,8 +439,13 @@ Every rejection is data. Every interview teaches something. Keep going.
 
 ### Competitive Programming (Optional, Low ROI)
 
-- [Codeforces](https://codeforces.com/) / [AtCoder](https://atcoder.jp/)
-- Only dive in if you enjoy it. For internship interviews, it’s overkill. Better to spend time on LeetCode.
+- ⚔️ [Codeforces](https://codeforces.com/) – Competitive programming platform with rating-based divisions. **Overkill for internship interviews**, but great if you enjoy the competitive aspect. Divisions reflect difficulty:
+  - 🟢 **Div. 4** – Beginner-friendly (target rating < 1400); focuses on basic implementation and standard problems.
+  - 🔵 **Div. 3** – Slightly harder (target rating < 1600); still accessible, good for building speed and fundamentals.
+  - 🟠 **Div. 2** – Standard difficulty (target rating < 2100); most common division, comparable to LeetCode Medium/Hard.
+  - 🔴 **Div. 1** – Advanced (target rating ≥ 1900); expects deep algorithm knowledge and fast problem-solving.
+- 🎄 [Advent of Code](https://adventofcode.com/) – Fun puzzles, but not interview‑optimized.
+- **Bottom line:** For internship interviews, time spent on LeetCode yields much higher ROI. Only dive into CP if you genuinely enjoy the challenge.
 
 ---
 

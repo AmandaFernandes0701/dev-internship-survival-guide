@@ -3,7 +3,7 @@
 
 > Written by a student who started from zero, failed a lot, learned more, and eventually got in.  
 > **Goal:** Shorten your learning curve with field-tested strategies, visual roadmaps, and a curated resource hub — all adapted to the Brazilian tech hiring reality.  
-> Questions or want to connect? Recah me on [LinkedIn](https://www.linkedin.com/in/amanda-fernandes-software-engineer/)
+> Questions or want to connect? Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/amanda-fernandes-software-engineer/)
 
 ---
 
@@ -116,11 +116,14 @@ I spent roughly **1 year** preparing, but it was completely unbalanced:
 - 🗓️ **Weekends/holidays:** 5–8 problems/day max. Beyond that, diminishing returns kick in hard.
 - 📚 **Theory days:** Reserve 1–2 days/week for concept study only, no solving.
 
-**Method (the NeetCode 250 flow):**
+**Method – learn by doing, one topic at a time:**
 
-1. Follow [NeetCode 250](https://neetcode.io/practice) in order — topic by topic, don’t skip around.
-2. Spend 2–3 weeks per topic → do a mock interview on that topic → move to the next.
-3. Spaced repetition: redo the same problems after 1 week, then again after 2–3 weeks.
+1. **Pick one topic** from the NeetCode 250 roadmap (e.g., Arrays, Hash Maps, Trees).
+2. **Study its theory in one go** – watch video explanations, read a chapter, understand the common patterns.
+3. **Start coding immediately** – solve Easy problems first, then Medium ones. Don’t jump to the next topic until you can solve Mediums comfortably.
+4. Each cycle (2–3 weeks) covers one topic completely: theory → Easy → Medium → mock interview.
+5. **Spaced repetition:** re-solve the same problems after 1 week and again after 2–3 weeks.
+6. **Apply early, even if you feel you’re not ready.** Spoiler: you’ll never feel 100% ready. Use real interviews as a feedback loop – every rejection shows you exactly where to improve.
 
 **Why consistency > cramming:**  
 LeetCode is a muscle. You don’t build it with 10‑hour leg days once a month — you build it with steady, moderate training. People who solve 1–2 problems daily for 3 months consistently outperform those who binge 100 problems in two weeks and burn out. This isn’t just my opinion; it’s the most common pattern among successful candidates on r/leetcode, Blind, and every interview prep community.
@@ -129,22 +132,44 @@ LeetCode is a muscle. You don’t build it with 10‑hour leg days once a month 
 
 ```mermaid
 flowchart TD
-    A[📅 Start: Assess current level] --> B[📚 Learn DSA theory & Big O]
-    B --> C{Select a topic from NeetCode 250}
-    C --> D[🧩 Solve 2-3 problems/day, 5x/week]
-    D --> E[📝 Spaced repetition: re-solve after 1 week]
-    E --> F[🎤 Mock interview on topic]
-    F --> G{Confident?}
-    G -- Yes --> H[➡️ Move to next topic]
-    G -- No --> C
-    H --> I{All topics covered?}
-    I -- Yes --> J[🧪 Mixed problem sets & company-tagged]
-    I -- No --> C
-    J --> K[💼 Apply & real interviews]
-    K --> L[🏆 Offer]
+    A[📅 Start: Assess your level] --> B[📚 Pick one topic & study its theory]
+    B --> C[🧩 Solve Easy problems on that topic]
+    C --> D[🧩 Solve Medium problems on that topic]
+    D --> E[🎤 Mock interview on the topic]
+    E --> F{Confident with this topic?}
+    F -- No --> B
+    F -- Yes --> G[➡️ Move to next topic]
+    G --> H{All core topics done?}
+    H -- No --> B
+    H -- Yes --> I[🧪 Mixed problem sets & company-tagged]
     
-    style A fill:#e1f5e1
-    style L fill:#ffeaa7
+    %% parallel apply path
+    A --> M[💼 Start applying early — even if you’re not 100% ready]
+    B --> M
+    C --> M
+    D --> M
+    E --> M
+    I --> M
+    M --> N[📋 Real interviews & feedback]
+    N --> O{Offer?}
+    O -- Yes --> L[🏆 Celebrate!]
+    O -- No --> P[📝 Analyse feedback, adjust study]
+    P --> B
+    
+    style A fill:#27ae60,color:#fff
+    style B fill:#2980b9,color:#fff
+    style C fill:#d35400,color:#fff
+    style D fill:#d35400,color:#fff
+    style E fill:#c0392b,color:#fff
+    style F fill:#f39c12,color:#000
+    style G fill:#27ae60,color:#fff
+    style H fill:#f39c12,color:#000
+    style I fill:#8e44ad,color:#fff
+    style M fill:#16a085,color:#fff
+    style N fill:#c0392b,color:#fff
+    style O fill:#f39c12,color:#000
+    style L fill:#f1c40f,color:#000
+    style P fill:#e67e22,color:#fff
 ```
 
 > 🔗 **Essential links:** [NeetCode.io](https://neetcode.io) · [LeetCode](https://leetcode.com) · [Cracking the Coding Interview (book)](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)

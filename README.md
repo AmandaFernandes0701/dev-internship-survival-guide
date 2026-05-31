@@ -99,8 +99,6 @@ the difficulty level that actually matters. Adjust based on what makes sense for
 > facing techniques you've never seen, feel awful, and waste time. Stick to one topic at a time.
 > Speaking from painful personal experience. 😅
 
-**Resources:** [Neetcode](https://neetcode.io) · [LeetCode](https://leetcode.com) · [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850) · [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms)
-
 > Competitive programming and Advent of Code were personal hobbies — high math focus,
 > low ROI for standard interviews. Don't feel pressured.
 

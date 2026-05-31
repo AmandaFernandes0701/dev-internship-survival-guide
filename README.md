@@ -182,7 +182,7 @@ flowchart TD
 
 1. List 5–7 strong stories from projects, university, hackathons, group work, or even personal initiatives.
 2. Write each in STAR format using bullet points, **not** scripts — you want to sound natural, not robotic.
-3. Practice with AI (ChatGPT voice mode, Interviewing.io mock) or a buddy. Aim for 2 minutes max per story.
+3. Practice with AI (ChatGPT voice mode, Interviewing.io mock) or a buddy. Aim for 5 minutes max per story.
 4. Cover these categories:
    - 🤝 Teamwork & collaboration
    - 💥 Conflict resolution

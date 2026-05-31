@@ -1,4 +1,5 @@
-# 🚀 Internship Interview Guide — Brazil 🇧🇷  
+# 🚧 Internship Interview Guide — Brazil 🇧🇷 *(Work in Progress)*
+### *This guide is currently under construction. I'm continuously adding new lessons, resources, interview experiences, and insights as I refine and expand the content.*
 ### *From rejections to offers: a brutally honest, visual and actionable playbook*
 
 > Written by a student who started from zero, failed a lot, learned more, and eventually got in.  

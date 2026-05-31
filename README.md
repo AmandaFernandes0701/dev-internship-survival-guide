@@ -67,60 +67,52 @@ the optimal solution won't save you.
 
 ## Study Plan
 
-### My Timeline
+### The Numbers
 
-I started from zero. No competitive programming background, shaky CS fundamentals, recursion
-made my brain freeze. Here's exactly how it went:
+| Metric | My Experience | Community Baseline |
+|--------|---------------|-------------------|
+| **Total prep time** | ~1 year (on and off) | 3–6 months focused is typical |
+| **LeetCode problems** | ~200 | 150–200 is the sweet spot for most internship candidates |
+| **Competitive programming** | ~50 | Optional — low ROI for standard interviews |
+| **Advent of Code** | ~50 | Fun but not interview-optimized |
+| **Theory study** | Significant (started from zero) | Depends on your CS foundation |
 
-| Phase | Duration | What I Did |
-|-------|----------|-------------|
-| **Theory grind** | ~4 months | Learned Big O, data structures, and algorithms from scratch before touching LeetCode |
-| **Active practice** | ~8 months | Solved problems consistently, mostly during breaks from university |
-| **Total** | ~1 year | From zero to passing multiple internship interviews |
+### My Timeline (The Honest Version)
 
-### The Ugly Truth
+I started from absolute zero — weak CS fundamentals, no competitive programming background,
+nothing. So a huge chunk of my time wasn't just solving problems; it was learning the theory
+behind them first. Big O, data structures from scratch, recursion that didn't make my brain crash.
 
-I didn't balance this well. At all.
+I spent roughly **1 year** preparing, but it was far from balanced:
 
-- **During semesters:** barely studied. Classes consumed everything.
-- **During breaks:** 8–12 hours a day on LeetCode. Zero rest. Ten problems daily minimum.
+- During the semester: almost nothing. Classes drained me and I barely touched LeetCode.
+- During breaks/holidays: full degenerate mode. 8–12 hours/day, 10+ problems daily, zero rest.
 
-I passed the interviews, sure. But I also ended every break completely burned out.
-**Don't copy that part.**
+> **Do not do this.** By the end of every break I was mentally fried. Practically no rest.
+> I don't recommend it. What I do recommend:
 
-### What I'd Tell My Past Self
+### What Actually Works (Based on Data & Experience)
 
-- Solve **1–2 problems a day** during the semester. It's enough.
-- On free days, cap at **5–8 problems**. Your brain stops absorbing after that.
-- Study theory and practice together. Don't spend months on theory first like I did — learn the concept, then immediately solve problems that use it.
-- Redo problems. I revisited the same ones after a week, then again after a month. This stuck way more than solving new problems every day.
-- Mock interviews after every topic. With a friend, a mentor, or just ChatGPT simulating an interviewer. The pressure shift is real and you need to get used to it.
+**Pacing that sticks:**
 
-### What I Actually Solved
+- **Weekdays:** 1–2 problems/day consistently beats 10 problems on a random Saturday
+- **Weekends/holidays:** 5–8/day max — beyond that, diminishing returns kick in hard
+- **Theory days:** Reserve 1–2 days/week for concept study only, no solving
 
-- ~200 LeetCode problems, following the [Neetcode 250](https://neetcode.io/practice) roadmap in order
-- ~50 competitive programming exercises — mostly for fun, low interview ROI
-- ~50 Advent of Code puzzles — same, hobby territory
+**Method:**
 
-### Difficulty Breakdown
+- Follow [Neetcode 250](https://neetcode.io/practice) in order — topic by topic, don't skip around
+- 2–3 weeks per topic → mock interview on that topic → move to next
+- Spaced repetition: redo the same problems after 1 week, then 2–3 weeks later
 
-| Difficulty | Time Spent | Advice |
-|------------|------------|--------|
-| **Medium** | ~70% | This is where interviews live. Master these. |
-| **Easy** | ~30% | Don't skip them. Some are surprisingly tricky and they build the patterns you need for Mediums. |
-| **Hard** | Almost none | Rarely shows up in internships. Don't bother unless you're curious. |
+**Why consistency > cramming:**
 
-### How I Tackled Each Topic
+LeetCode is a muscle. You don't build it with 10-hour leg days once a month — you build it with
+steady, moderate training. People who solve 1–2 problems daily for 3 months consistently outperform
+those who binge 100 problems in two weeks and burn out. This isn't my opinion; it's the most common
+pattern among successful candidates on r/leetcode, Blind, and every interview prep community.
 
-1. Solved every Easy problem in that topic first
-2. Moved to Mediums — same pattern, harder scenarios
-3. Only touched Hards if I had extra time and genuine interest
-
-**Never jump around randomly.** I tried it. You land on problems using techniques you've never seen, feel like an idiot, and waste an afternoon. Stick to one topic until you're comfortable, then move on.
-
-### Key Takeaway
-
-LeetCode is a muscle. One problem a day for three months beats 50 problems in a weekend. Consistency over intensity, always.
+**Resources:** [Neetcode](https://neetcode.io) · [LeetCode](https://leetcode.com) · [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850) · [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms)
 
 ---
 

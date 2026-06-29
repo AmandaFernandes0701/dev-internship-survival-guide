@@ -75,15 +75,22 @@ Strong fundamentals in data structures, algorithms, and pattern recognition rema
 ## 2. Data Structures & Algorithms (DSA) Foundations
 
 <details>
-<summary><b>📌 Core Topics to Master Before Grinding</b></summary>
+<summary><b>Core Topics to Master Before Grinding</b></summary>
 
 Do not jump straight into LeetCode without knowing the theoretical foundations. Master the patterns first — the problems will follow[reference:1].
 
 </details>
 
-### Practice Distribution
+<details>
+<summary><b>Practice Strategy: Quality Over Quantity</b></summary>
 
-For each topic, aim for **3 Easy → 6 Medium → 1 Hard**. This builds confidence, reinforces patterns, and exposes you to enough variation without burnout[reference:2].
+Your practice should follow this structure:
+
+*   **The Foundation (Easy / Short Exercises):** Use straightforward problems to test your basic mastery of syntax and core data structures before moving forward.
+*   **The Core Practice (Medium / Elaborate Problems):** Spend most of your time here. Focus on identifying optimization bottlenecks and understanding the *Best Conceivable Runtime (BCR)*. 
+*   **The Methodology:** For every problem you tackle, do not jump straight to the computer. Solve it mentally, figure out the Big O time and space complexity, write your code **on paper**, test it manually on paper, and only then type it into a computer to log your mistakes.
+
+</details>
 
 ---
 

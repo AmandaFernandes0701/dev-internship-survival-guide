@@ -10,7 +10,6 @@ A pragmatic, fluff-free roadmap to cracking software engineering internship inte
 3. [The LeetCode Strategy & Coding Patterns](#3-the-leetcode-strategy--coding-patterns)
 4. [Essential Communication & Behavioral Cheat Sheet](#4-essential-communication--behavioral-cheat-sheet)
 5. [Curated Resources & Study Materials](#5-curated-resources--study-materials)
-6. [Interview Insights & Mock Questions](#6-interview-insights--mock-questions)
 
 ---
 
@@ -397,51 +396,4 @@ Create your **personal cheat sheet** with[reference:29]:
 
 ---
 
-## 6. Interview Insights & Mock Questions
-
-<details>
-<summary><b>🎤 Expected Interview Levels (No NDAs Violated)</b></summary>
-
-### What to Expect for Internships
-
-- **Screening round:** Usually 1-2 problems (often Easy/Medium)
-- **On-site (typically 2 rounds):** Mixture of Medium, occasionally Hard[reference:30]
-- **Focus areas:** Arrays, Strings, Trees, Graphs, DP — the classics[reference:31]
-
-### Representative Questions by Topic
-
-| Topic | Representative Problem | Difficulty | Key Concept |
-|-------|------------------------|------------|-------------|
-| Arrays | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | Hash Map lookups |
-| Two Pointers | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | Medium | Greedy two-pointer |
-| Sliding Window | [Longest Substring Without Repeating](https://leetcode.com/problems/longest-substring-without-repeating-characters) | Medium | Dynamic window |
-| Linked Lists | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | Easy | Pointer manipulation |
-| Trees | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | Easy | DFS recursion |
-| Graphs | [Number of Islands](https://leetcode.com/problems/number-of-islands) | Medium | BFS/DFS grid traversal |
-| Heaps | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | Medium | Heap vs. Bucket Sort |
-| DP | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | 1D DP / Fibonacci |
-
-### Mock Interview Strategy
-
-1. **Start mocks early** — don't wait until you've "finished" studying
-2. **Use LeetCode's interview simulator** or Pramp for free practice[reference:32]
-3. **Record yourself** — listen back to catch verbal tics and awkward pauses
-4. **Practice with a timer** — 30-45 minutes per problem
-
-</details>
-
----
-
-## ✅ Final Checklist Before Your Interview
-
-- [ ] Can you implement DFS/BFS from scratch?
-- [ ] Can you reverse a linked list in your sleep?
-- [ ] Do you know when to use a heap vs. a sort?
-- [ ] Can you explain the time/space complexity of your solution?
-- [ ] Have you done at least 3 mock interviews?
-- [ ] Do you have 3 STAR stories ready?
-- [ ] Is your development environment set up and tested?
-
----
-
-**Good luck! You've got this.** 🚀
+**Thanks for reading! :)**

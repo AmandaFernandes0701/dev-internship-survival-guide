@@ -34,17 +34,16 @@ I hope you find something here that makes your own journey a little easier. Good
 
 Interviewers evaluate **your problem-solving skills**, not your favorite programming language.
 
-Your language should help you think clearly and implement solutions quickly—not slow you down because you're fighting syntax.
+Your language should help you think clearly and implement solutions quickly, not slow you down because you're fighting syntax.
 
 ### If you have multiple options, choose Python
 
 If you're equally comfortable with several languages, **Python is the recommendation**.
 
 **Why Python?**
-- Less verbose than Java/C++ — you save precious minutes in OAs
-- Built-in data structures (`dict`, `set`, `deque`, `heapq`) solve many problems in 1-2 lines
-- Syntax reads like pseudocode — less mental overhead during interviews
-- No integer overflow/underflow to worry about
+- Less verbose
+- Built-in data structures
+- Syntax reads like pseudocode
 
 ### Don't switch languages before interviews
 
@@ -59,7 +58,7 @@ For most companies, the OA is the first technical screening:
 
 - **2–4 coding problems**
 - **60–90 minutes**
-- Difficulty increases throughout — the last question is often significantly harder
+- Difficulty increases throughout
 
 ### Don't expect to finish everything
 
@@ -89,7 +88,9 @@ Strong fundamentals in data structures, algorithms, and pattern recognition rema
 <details>
 <summary><b>Core Topics to Master Before Grinding</b></summary>
 
-Do not jump straight into LeetCode without knowing the theoretical foundations. Master the patterns first — the problems will follow.
+Don't jump straight into solving LeetCode problems without understanding the fundamentals first.
+What worked well for me was keeping each week focused on a single topic. I would spend one day learning the underlying concepts, then dedicate the rest of the week to solving problems that reinforced them.
+Trying to solve problems that rely on concepts you haven't learned yet is frustrating and inefficient. Study with intention, the time you invest in building strong fundamentals will pay off later.
 
 </details>
 
@@ -241,14 +242,15 @@ Your practice should follow this structure:
 <details>
 <summary><b>📚 Curated Problem Lists & Tracking</b></summary>
 
-### Recommended Lists
+### Recommended Problem Lists
 
-| List | Problems | Best For | Link |
-|------|----------|----------|------|
-| **Neetcode 150** | 150 problems, 18 categories | Comprehensive coverage + video explanations for every problem | [neetcode.io/practice](https://neetcode.io/practice) |
-| **Blind 75** | 75 essential problems | Quick, focused prep for tight timelines | [leetcode.com/list/oizxjoit](https://leetcode.com/list/oizxjoit) |
-| **Grind 75** | 75-169 customizable | Flexible scheduling by available study time | [techinterviewhandbook.org/grind75](https://techinterviewhandbook.org/grind75) |
-| **LeetCode 75** | 75 study plan | Official structured learning path from LeetCode | [leetcode.com/studyplan/leetcode-75](https://leetcode.com/studyplan/leetcode-75) |
+| List             | Best For                                                                                                                              | Link                         |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| **NeetCode 75**  | If you're short on time and want to cover the most important interview patterns.                                                      | https://neetcode.io/practice |
+| **NeetCode 150** | A balanced preparation covering all major data structures and algorithms topics.                                                      | https://neetcode.io/practice |
+| **NeetCode 250** | The most comprehensive option. This is the one I personally completed and highly recommend if you have enough time before interviews. | https://neetcode.io/practice |
+
+> **Recommendation:** If you have several months to prepare, I'd strongly recommend following the **NeetCode 250**. Otherwise, the **150** or even the **75** are excellent choices depending on your timeline.
 
 ---
 

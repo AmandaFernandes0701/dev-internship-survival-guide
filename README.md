@@ -1,6 +1,18 @@
 # 🚀 Dev Internship Survival Guide: Big Tech Edition
 
-A pragmatic, fluff-free roadmap to cracking software engineering internship interviews at top tech companies. Focuses entirely on actionable steps, technical preparation, and data structures.
+Hi! I'm glad you found this repository :)
+
+I created this guide to help students and aspiring software engineers preparing for internships at Big Tech companies. When I started this journey, I spent countless hours jumping between YouTube videos, blog posts, Reddit threads, and interview experiences, trying to figure out what actually mattered.
+
+This repository is my attempt to bring those lessons together in one place.
+
+Here you'll find the resources, study strategies, interview tips, and preparation methods that helped me land a Big Tech internship, along with many of the things I wish someone had told me when I was getting started.
+
+This isn't meant to be a complete roadmap, there are already plenty of excellent ones out there. Instead, think of it as a practical companion: a collection of actionable advice, useful references, and study materials that can help you prepare more efficiently.
+
+At the end of this guide, I've also included the books, YouTube channels, websites, and other resources that were the most valuable throughout my preparation.
+
+I hope you find something here that makes your own journey a little easier. Good luck, and happy studying!
 
 ---
 

@@ -29,7 +29,7 @@ Your language should help you think clearly and implement solutions quickly—no
 If you're equally comfortable with several languages, **Python is the recommendation**.
 
 **Why Python?**
-- ~30% less verbose than Java/C++ — you save precious minutes in OAs[reference:0]
+- Less verbose than Java/C++ — you save precious minutes in OAs
 - Built-in data structures (`dict`, `set`, `deque`, `heapq`) solve many problems in 1-2 lines
 - Syntax reads like pseudocode — less mental overhead during interviews
 - No integer overflow/underflow to worry about
@@ -77,7 +77,7 @@ Strong fundamentals in data structures, algorithms, and pattern recognition rema
 <details>
 <summary><b>Core Topics to Master Before Grinding</b></summary>
 
-Do not jump straight into LeetCode without knowing the theoretical foundations. Master the patterns first — the problems will follow[reference:1].
+Do not jump straight into LeetCode without knowing the theoretical foundations. Master the patterns first — the problems will follow.
 
 </details>
 
@@ -110,7 +110,7 @@ Your practice should follow this structure:
 | Medium | Longest Consecutive Sequence | [leetcode.com/problems/longest-consecutive-sequence](https://leetcode.com/problems/longest-consecutive-sequence) |
 | Hard | First Missing Positive | [leetcode.com/problems/first-missing-positive](https://leetcode.com/problems/first-missing-positive) |
 
-**Core concepts:** O(1) lookups, frequency counting, prefix sums, set operations[reference:3].
+**Core concepts:** O(1) lookups, frequency counting, prefix sums, set operations.
 
 </details>
 
@@ -132,7 +132,7 @@ Your practice should follow this structure:
 | Medium | Fruit Into Baskets | [leetcode.com/problems/fruit-into-baskets](https://leetcode.com/problems/fruit-into-baskets) |
 | Hard | Trapping Rain Water | [leetcode.com/problems/trapping-rain-water](https://leetcode.com/problems/trapping-rain-water) |
 
-**Core concepts:** Optimizing O(N²) brute-force to O(N). Two-pointers traverse from ends; sliding window expands/contracts dynamically[reference:4][reference:5].
+**Core concepts:** Optimizing O(N²) brute-force to O(N). Two-pointers traverse from ends; sliding window expands/contracts dynamically.
 
 </details>
 
@@ -154,7 +154,7 @@ Your practice should follow this structure:
 | Medium | Reorder List | [leetcode.com/problems/reorder-list](https://leetcode.com/problems/reorder-list) |
 | Hard | Reverse Nodes in k-Group | [leetcode.com/problems/reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group) |
 
-**Core concepts:** Pointer manipulation, in-place reversal, Floyd's cycle detection, fast/slow pointer technique[reference:6].
+**Core concepts:** Pointer manipulation, in-place reversal, Floyd's cycle detection, fast/slow pointer technique.
 
 </details>
 
@@ -268,23 +268,23 @@ Create a tracker (Notion, Google Sheets, or Excel) with these columns:
 
 ### The Core Principle: Patterns, Not Problems
 
-> *"I solved 400+ LeetCode problems consistently. Still got stuck in interviews midway. Why? Because I didn't study patterns, I studied just problems."*[reference:12]
+> *"I solved 400+ LeetCode problems consistently. Still got stuck in interviews midway. Why? Because I didn't study patterns, I studied just problems."*
 
-LeetCode isn't about memorizing 500 solutions. It's about mastering **~14 patterns** deeply[reference:13]. Once you do that, most problems will feel familiar[reference:14].
+LeetCode isn't about memorizing 500 solutions. It's about mastering **~14 patterns** deeply. Once you do that, most problems will feel familiar.
 
 ### The 14 Essential Patterns
 
 | Pattern | When to Use | Example Problems |
 |---------|-------------|------------------|
-| **Sliding Window** | Subarrays/substrings, contiguous, min/max in range[reference:15] | Longest Substring Without Repeating, Max Consecutive Ones III |
-| **Two Pointers** | Sorted arrays, inward movement, pair sums[reference:16] | Two Sum II, Container With Most Water, 3Sum |
-| **Fast & Slow Pointers** | Cycle detection, middle of list[reference:17] | Linked List Cycle, Middle of Linked List |
+| **Sliding Window** | Subarrays/substrings, contiguous, min/max in range | Longest Substring Without Repeating, Max Consecutive Ones III |
+| **Two Pointers** | Sorted arrays, inward movement, pair sums | Two Sum II, Container With Most Water, 3Sum |
+| **Fast & Slow Pointers** | Cycle detection, middle of list | Linked List Cycle, Middle of Linked List |
 | **Merge Intervals** | Overlapping intervals | Merge Intervals, Insert Interval |
 | **Cyclic Sort** | Missing numbers in range 1-N | Find All Duplicates, First Missing Positive |
-| **Tree Traversal (DFS/BFS)** | Trees, grids, path finding[reference:18] | Number of Islands, Binary Tree Level Order |
+| **Tree Traversal (DFS/BFS)** | Trees, grids, path finding | Number of Islands, Binary Tree Level Order |
 | **Trie** | Prefix matching, autocomplete | Implement Trie, Word Search II |
-| **Heap / Priority Queue** | Top-K elements, scheduling[reference:19] | Top K Frequent, Merge K Sorted Lists |
-| **Backtracking** | Combinations, permutations, subsets[reference:20] | Subsets, Permutations, N-Queens |
+| **Heap / Priority Queue** | Top-K elements, scheduling | Top K Frequent, Merge K Sorted Lists |
+| **Backtracking** | Combinations, permutations, subsets | Subsets, Permutations, N-Queens |
 | **Dynamic Programming** | Overlapping subproblems, optimal substructure | Coin Change, Longest Increasing Subsequence |
 | **Binary Search** | Sorted arrays, search in O(log n) | Search in Rotated Sorted Array |
 | **Bit Manipulation** | XOR, bit operations | Single Number, Counting Bits |
@@ -293,18 +293,18 @@ LeetCode isn't about memorizing 500 solutions. It's about mastering **~14 patter
 
 ### The 30-Minute Rule
 
-Try to solve a problem on your own for **30 minutes**[reference:21]. If stuck:
+Try to solve a problem on your own for **30 minutes**. If stuck:
 
 1. Look at the solution/discussion
 2. **Understand the pattern** — not just the code
 3. Close it and rewrite the code yourself from scratch
 4. This builds **active recall**, not passive recognition
 
-> ⚠️ **The "Tutorial Fallacy"**: Watching a Neetcode video, nodding your head, and typing out his solution teaches you nothing[reference:22]. You learned how to watch someone else solve a problem, not how to solve it yourself.
+> ⚠️ **The "Tutorial Fallacy"**: Watching a Neetcode video, nodding your head, and typing out his solution teaches you nothing. You learned how to watch someone else solve a problem, not how to solve it yourself.
 
 ### The 70-20-10 Rule
 
-Spend your practice time on[reference:23][reference:24]:
+Spend your practice time on:
 - **70%** on Medium problems
 - **20%** on Hard problems
 - **10%** on Easy problems
@@ -374,7 +374,7 @@ Prepare 3-4 stories using **STAR**:
 | Resource | Link | Best For |
 |----------|------|----------|
 | **LeetCode** | [leetcode.com](https://leetcode.com) | Practice problems + mocks |
-| **Neetcode** | [neetcode.io](https://neetcode.io) | Structured roadmap + video explanations[reference:25] |
+| **Neetcode** | [neetcode.io](https://neetcode.io) | Structured roadmap + video explanations |
 | **Tech Interview Handbook** | [techinterviewhandbook.org](https://techinterviewhandbook.org) | Complete prep guide |
 | **Pramp** | [pramp.com](https://pramp.com) | Free mock interviews |
 
@@ -382,19 +382,19 @@ Prepare 3-4 stories using **STAR**:
 
 | Book | Why |
 |------|-----|
-| **Cracking the Coding Interview** (Gayle Laakmann McDowell) | Classic — covers fundamentals and interview mechanics[reference:26] |
+| **Cracking the Coding Interview** (Gayle Laakmann McDowell) | Classic — covers fundamentals and interview mechanics |
 | **Elements of Programming Interviews** | More advanced — great for FAANG prep |
 
 ### YouTube Channels
 
 | Channel | Best For |
 |---------|----------|
-| **Neetcode** | Visual explanations of LeetCode problems[reference:27] |
-| **Take U Forward** | DSA fundamentals[reference:28] |
+| **Neetcode** | Visual explanations of LeetCode problems |
+| **Take U Forward** | DSA fundamentals |
 
 ### Cheat Sheets
 
-Create your **personal cheat sheet** with[reference:29]:
+Create your **personal cheat sheet** with:
 - Patterns + when to use them
 - Go-to code snippets for each data structure
 - Top 10 problems per pattern for last-minute revision

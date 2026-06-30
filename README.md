@@ -12,6 +12,8 @@ This isn't meant to be a complete roadmap, there are already plenty of excellent
 
 At the end of this guide, I've also included the books, YouTube channels, websites, and other resources that were the most valuable throughout my preparation.
 
+**Don't optimize your preparation for passing OAs. Optimize it for becoming genuinely good at solving unseen problems.** Strong fundamentals in data structures, algorithms, and pattern recognition remain valuable regardless of the company or interview format.
+
 I hope you find something here that makes your own journey a little easier. Good luck, and happy studying!
 
 ---
@@ -38,7 +40,7 @@ Your language should help you think clearly and implement solutions quickly, not
 
 ### If you have multiple options, choose Python
 
-If you're equally comfortable with several languages, **Python is the recommendation**.
+If you're equally comfortable with several languages, **Python is the recommendation.**
 
 **Why Python?**
 - Less verbose
@@ -72,15 +74,6 @@ The OA exists to reduce thousands of applicants to a smaller interview pool. **A
 
 </details>
 
-<details>
-<summary><b>📌 Final Advice Before You Start</b></summary>
-
-Don't optimize your preparation for passing OAs. Optimize it for becoming genuinely good at solving unseen problems.
-
-Strong fundamentals in data structures, algorithms, and pattern recognition remain valuable regardless of the company or interview format.
-
-</details>
-
 ---
 
 ## 2. Data Structures & Algorithms (DSA) Foundations
@@ -93,19 +86,6 @@ What worked well for me was keeping each week focused on a single topic. I would
 Trying to solve problems that rely on concepts you haven't learned yet is frustrating and inefficient. Study with intention, the time you invest in building strong fundamentals will pay off later.
 
 </details>
-
-<details>
-<summary><b>Practice Strategy: Quality Over Quantity</b></summary>
-
-Your practice should follow this structure:
-
-*   **The Foundation (Easy / Short Exercises):** Use straightforward problems to test your basic mastery of syntax and core data structures before moving forward.
-*   **The Core Practice (Medium / Elaborate Problems):** Spend most of your time here. Focus on identifying optimization bottlenecks and understanding the *Best Conceivable Runtime (BCR)*. 
-*   **The Methodology:** For every problem you tackle, do not jump straight to the computer. Solve it mentally, figure out the Big O time and space complexity, write your code **on paper**, test it manually on paper, and only then type it into a computer to log your mistakes.
-
-</details>
-
----
 
 <details>
 <summary><b>📊 Arrays & Hashing</b></summary>
@@ -239,42 +219,6 @@ Your practice should follow this structure:
 
 ---
 
-<details>
-<summary><b>📚 Curated Problem Lists & Tracking</b></summary>
-
-### Recommended Problem Lists
-
-| List             | Best For                                                                                                                              | Link                         |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| **NeetCode 75**  | If you're short on time and want to cover the most important interview patterns.                                                      | https://neetcode.io/practice |
-| **NeetCode 150** | A balanced preparation covering all major data structures and algorithms topics.                                                      | https://neetcode.io/practice |
-| **NeetCode 250** | The most comprehensive option. This is the one I personally completed and highly recommend if you have enough time before interviews. | https://neetcode.io/practice |
-
-> **Recommendation:** If you have several months to prepare, I'd strongly recommend following the **NeetCode 250**. Otherwise, the **150** or even the **75** are excellent choices depending on your timeline.
-
----
-
-### Progress Tracker Setup
-
-Create a tracker (Notion, Google Sheets, or Excel) with these columns:
-
-| Column | Purpose |
-|--------|---------|
-| Problem Name | Title + LeetCode number |
-| Topic | Arrays, DP, Trees, etc. |
-| Difficulty | Easy / Medium / Hard |
-| Status | To Do / In Progress / Solved / Revised |
-| Date Solved | Track consistency |
-| Solution Approach | 1-2 sentences on your intuition |
-| Time Complexity | Big-O analysis |
-| Space Complexity | Big-O analysis |
-| Key Takeaway | Pattern learned or mistake to avoid |
-| Re-solved? | Checkbox for spaced repetition (review every 2-4 weeks) |
-
-</details>
-
----
-
 ## 3. The LeetCode Strategy & Coding Patterns
 
 <details>
@@ -305,6 +249,11 @@ LeetCode isn't about memorizing 500 solutions. It's about mastering **~14 patter
 | **Topological Sort** | Dependency graphs, course schedules | Course Schedule, Alien Dictionary |
 | **Monotonic Stack** | Next greater/smaller element | Daily Temperatures, Largest Rectangle |
 
+</details>
+
+<details>
+<summary><b>📋 The 70-20-10 & 30-Minute Rules</b></summary>
+
 ### The 30-Minute Rule
 
 Try to solve a problem on your own for **30 minutes**. If stuck:
@@ -323,6 +272,17 @@ Spend your practice time on:
 - **20%** on Hard problems
 - **10%** on Easy problems
 
+</details>
+
+<details>
+<summary><b>✍️ Practice Strategy: Quality Over Quantity</b></summary>
+
+Your practice should follow this structure:
+
+*   **The Foundation (Easy / Short Exercises):** Use straightforward problems to test your basic mastery of syntax and core data structures before moving forward.
+*   **The Core Practice (Medium / Elaborate Problems):** Spend most of your time here. Focus on identifying optimization bottlenecks and understanding the *Best Conceivable Runtime (BCR)*. 
+*   **The Methodology:** For every problem you tackle, do not jump straight to the computer. Solve it mentally, figure out the Big O time and space complexity, write your code **on paper**, test it manually on paper, and only then type it into a computer to log your mistakes.
+
 ### Weekly Study Plan (12 Weeks)
 
 | Week | Focus |
@@ -333,6 +293,60 @@ Spend your practice time on:
 | 7-8 | Graphs + Heaps |
 | 9-10 | Dynamic Programming (1D → 2D) |
 | 11-12 | Backtracking + Mixed Review + Mocks |
+
+</details>
+
+<details>
+<summary><b>📚 Curated Problem Lists & Tracking</b></summary>
+
+### Recommended Problem Lists
+
+| List             | Best For                                                                                                                                       | Link                                              |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| **Blind 75**     | A great starting point if you're short on time and want to learn the most common interview patterns.                                           | https://neetcode.io/practice/practice/blind75     |
+| **NeetCode 150** | A balanced and comprehensive list covering all major DSA topics.                                                                               | https://neetcode.io/practice/practice/neetcode150 |
+| **NeetCode 250** | The most complete option. This is the list I personally completed, and I'd highly recommend it if you have enough time before your interviews. | https://neetcode.io/practice/practice/neetcode250 |
+
+> **My recommendation:** If your timeline allows it, go through the **NeetCode 250**. Otherwise, the **NeetCode 150** or **Blind 75** are excellent alternatives depending on how much time you have available.
+
+---
+
+### Progress Tracker & Spaced Repetition
+
+One of the biggest mistakes people make is treating LeetCode as a checklist.
+
+Don't just solve a problem once and move on. The goal isn't to memorize solutions—it's to recognize patterns and build problem-solving intuition. Reviewing previously solved problems using **spaced repetition** is one of the most effective ways to make that knowledge stick.
+
+Keeping a tracker also helps you identify weak topics, monitor your consistency, and quickly review important patterns before interviews.
+
+Create a tracker (Notion, Google Sheets, or Excel) with the following columns:
+
+| Column            | Purpose                                 |
+| ----------------- | --------------------------------------- |
+| Problem Name      | Title + LeetCode number                 |
+| Topic             | Arrays, DP, Trees, etc.                 |
+| Difficulty        | Easy / Medium / Hard                    |
+| Status            | To Do / In Progress / Solved / Revised  |
+| Date Solved       | Track consistency                       |
+| Solution Approach | 1–2 sentences describing your intuition |
+| Time Complexity   | Big-O analysis                          |
+| Space Complexity  | Big-O analysis                          |
+| Key Takeaway      | Pattern learned or common mistake       |
+| Re-solved?        | Track reviews using spaced repetition   |
+
+### Recommended Templates & Resources
+
+These are excellent resources created by the community that helped shape my own study process:
+
+| Resource                              | Description                                                                                                                                                                        | Credits                                                                                                              |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **LeetCode Template File**            | A clean template for documenting each problem, your intuition, complexity analysis, and key takeaways. Great for building long-term understanding instead of memorizing solutions. | Mykel B. — https://github.com/mykelbengineer/LeetcodeTemplateFile                                                    |
+| **How I Study LeetCode (YouTube)**    | Explains an effective review strategy and why revisiting problems is just as important as solving new ones.                                                                        | https://www.youtube.com/watch?v=Xy2VokU7erM                                                                          |
+| **LeetCoding by Ebbinghaus (Notion)** | A Notion template built around the **Ebbinghaus Forgetting Curve**, helping you schedule reviews at increasing intervals to maximize retention.                                    | https://rapid-talon-5e6.notion.site/LeetCoding-by-Ebbinghaus-s-c43eafaf771c4016b8c8f60407eae912                      |
+| **LeetCode Tracker (Google Sheets)**  | A spreadsheet for organizing solved problems, review dates, and progress over time.                                                                                                | https://docs.google.com/spreadsheets/d/1EEYzyD_483B-7CmWxsJB_zycdv4Y5dxnzcoEQtaIfuk/edit?gid=329533698#gid=329533698 |
+| **LeetCode Study Dashboard (Notion)** | A complete dashboard for organizing your interview preparation, notes, and progress.                                                                                               | https://chartreuse-september-30d.notion.site/home-19e631afd4d74eb98d1152b577065345                                   |
+
+> **Why spaced repetition?** The **Ebbinghaus Forgetting Curve** shows that we naturally forget information over time unless we review it. Revisiting problems after a few days, weeks, and months reinforces the underlying patterns and makes them much easier to recognize during interviews. The objective isn't to memorize solutions—it's to internalize the reasoning behind them so you can solve unseen problems with confidence.
 
 </details>
 
@@ -405,13 +419,6 @@ Prepare 3-4 stories using **STAR**:
 |---------|----------|
 | **Neetcode** | Visual explanations of LeetCode problems |
 | **Take U Forward** | DSA fundamentals |
-
-### Cheat Sheets
-
-Create your **personal cheat sheet** with:
-- Patterns + when to use them
-- Go-to code snippets for each data structure
-- Top 10 problems per pattern for last-minute revision
 
 </details>
 

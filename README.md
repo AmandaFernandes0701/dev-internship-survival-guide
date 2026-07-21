@@ -32,24 +32,85 @@ I hope you find something here that makes your own journey a little easier. Good
 <details>
 <summary><b>🎯 Choosing Your Programming Language</b></summary>
 
-### Pick the language you know best
+### Verify the accepted languages first
 
-Interviewers evaluate **your problem-solving skills**, not your favorite programming language.
+Before investing time preparing for technical interviews, verify which programming languages are accepted. Review the interview guidelines or ask your recruiter directly.
 
-Your language should help you think clearly and implement solutions quickly, not slow you down because you're fighting syntax.
+Most companies support several mainstream languages (e.g., Python, Java, C++, JavaScript, Go and C#), although some interview platforms or teams may impose specific restrictions.
 
-### If you have multiple options, choose Python
+Always confirm this beforehand rather than relying on assumptions.
 
-If you're equally comfortable with several languages, **Python is the recommendation.**
+---
 
-**Why Python?**
-- Less verbose
-- Built-in data structures
-- Syntax reads like pseudocode
+### Choose the language you know best
 
-### Don't switch languages before interviews
+Technical interviews are designed to evaluate your ability to analyze problems, design algorithms, select appropriate data structures, reason about trade-offs, and communicate your thinking.
 
-A common mistake is learning a new language weeks before interviews. Don't. Interview stress is already high enough — you don't want to waste mental energy remembering syntax.
+Your programming language is simply the medium through which those skills are expressed.
+
+The best language is therefore the one that allows you to translate ideas into correct, efficient code with the lowest possible cognitive overhead. Mental effort spent recalling syntax, language-specific APIs, or compiler errors is effort that cannot be spent reasoning about the algorithm itself.
+
+From the perspective of **Cognitive Load Theory**, reducing unnecessary cognitive load allows more working memory to be allocated to solving the actual problem.
+
+---
+
+### Don't switch languages right before interviews
+
+A common mistake is learning a new language a few weeks before interviews simply because the target company uses it internally.
+
+In reality, this rarely improves interview performance.
+
+Interviewers typically care far more about whether you can:
+
+- identify the appropriate algorithmic pattern;
+- justify your choice of data structures;
+- analyze time and space complexity;
+- discuss design trade-offs;
+- communicate your reasoning clearly;
+- produce correct and maintainable code.
+
+A well-structured solution written confidently in a familiar language is almost always preferable to struggling with syntax in a language you recently learned.
+
+---
+
+### If you can freely choose, Python is usually the most practical option
+
+If you are equally comfortable with multiple languages, **Python is generally the most efficient choice** for coding interviews.
+
+Its concise syntax reduces boilerplate and allows you to express algorithms with fewer lines of code, leaving more time for reasoning, testing edge cases, and communicating your approach.
+
+Some advantages include:
+
+- concise and expressive syntax;
+- powerful built-in data structures (`list`, `dict`, `set`, `deque`, `heapq`, `Counter`, etc.);
+- rapid implementation with minimal boilerplate;
+- code that closely resembles pseudocode, improving readability during interviews.
+
+Since interview time is limited, reducing implementation overhead often translates into more time available for algorithmic reasoning.
+
+---
+
+### Concise syntax does **not** replace fundamental understanding
+
+Although Python provides many powerful built-in abstractions, interviewers expect you to understand **what happens beneath those abstractions**.
+
+Using `dict`, `set`, `sort()`, `heapq`, `deque`, or any other standard library component should never be based on memorization alone.
+
+You should be able to explain:
+
+- why a particular data structure is appropriate;
+- its average and worst-case time complexity;
+- its space complexity;
+- the underlying algorithm or data structure at a high level (e.g., hash tables, binary heaps, dynamic arrays);
+- the trade-offs compared to alternative approaches.
+
+For example, knowing that dictionary lookups are *typically* **O(1)** is not sufficient. You should also understand that this performance relies on a hash table implementation, why collisions occur, how they affect complexity, and why the worst case can degrade to **O(n)**.
+
+Likewise, calling `sort()` should be accompanied by an understanding that Python uses **Timsort**, a stable comparison-based sorting algorithm with **O(n log n)** worst-case complexity that performs particularly well on partially ordered data.
+
+The goal is not to memorize implementation details from CPython, but to understand the computational principles behind the abstractions you use.
+
+Strong interview performance comes from demonstrating algorithmic reasoning—not from relying on language features as black boxes.
 
 </details>
 
@@ -252,25 +313,31 @@ LeetCode isn't about memorizing 500 solutions. It's about mastering **~14 patter
 </details>
 
 <details>
-<summary><b>📋 The 70-20-10 & 30-Minute Rules</b></summary>
+<summary><b>⏱️ Recommended Time Allocation</b></summary>
 
-### The 30-Minute Rule
+### Don't struggle forever—but don't give up too early.
 
-Try to solve a problem on your own for **30 minutes**. If stuck:
+A good rule of thumb is to spend **20–30 minutes** reasoning about a problem independently before looking for help. This creates **productive struggle**, a learning strategy shown to improve long-term problem-solving ability compared to immediately reading solutions.
 
-1. Look at the solution/discussion
-2. **Understand the pattern** — not just the code
-3. Close it and rewrite the code yourself from scratch
-4. This builds **active recall**, not passive recognition
+If you're still stuck:
 
-> ⚠️ **The "Tutorial Fallacy"**: Watching a Neetcode video, nodding your head, and typing out his solution teaches you nothing. You learned how to watch someone else solve a problem, not how to solve it yourself.
+1. Review an editorial or high-quality solution.
+2. Focus on the **underlying algorithmic pattern**, not the implementation details.
+3. Identify *why* that approach works, including its time and space complexity.
+4. Close the solution and implement it again **entirely from memory**.
+5. Compare your implementation with the reference and note any gaps in understanding.
 
-### The 70-20-10 Rule
+The objective is not to reproduce code—it is to internalize the reasoning process so you can transfer the same pattern to unfamiliar problems.
 
-Spend your practice time on:
-- **70%** on Medium problems
-- **20%** on Hard problems
-- **10%** on Easy problems
+### Recommended Practice Distribution
+
+| Difficulty | Suggested Time |
+|------------|---------------:|
+| **Medium** | **≈65%** |
+| **Easy** | **≈30%** |
+| **Hard** | **≈5%** |
+
+This distribution reflects the difficulty of most software engineering interviews. **Medium** problems provide the highest return on investment because they reinforce the algorithmic patterns that appear most frequently during technical interviews. **Easy** problems strengthen fundamentals and improve implementation speed, while **Hard** problems are best used to expand your thinking rather than as the core of your preparation.
 
 </details>
 

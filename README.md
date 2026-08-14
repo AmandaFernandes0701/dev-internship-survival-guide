@@ -377,7 +377,7 @@ The plan below follows the **NeetCode 250 topic order**, with enough time for pr
 | 1–3   | Arrays & Hashing               |
 | 4–5   | Two Pointers                   |
 | 6–7   | Sliding Window                 |
-| 8–9   | Stack                          |
+| 8–9   | Stack and Queue                |
 | 10–12 | Binary Search                  |
 | 13–15 | Linked List                    |
 | 16–20 | Trees                          |

@@ -339,22 +339,38 @@ This distribution reflects the difficulty of most software engineering interview
 
 </details>
 
-<details>
-<summary><b>✍️ Practice Strategy: Quality Over Quantity</b></summary>
+### ✍️ Practice Strategy: Quality Over Quantity
 
 Your practice should follow this structure:
 
-*   **The Foundation (Easy / Short Exercises):** Use straightforward problems to test your basic mastery of syntax and core data structures before moving forward.
-*   **The Core Practice (Medium / Elaborate Problems):** Spend most of your time here. Focus on identifying optimization bottlenecks and understanding the *Best Conceivable Runtime (BCR)*. 
-*   **The Methodology:** For every problem you tackle, do not jump straight to the computer. Solve it mentally, figure out the Big O time and space complexity, write your code **on paper**, test it manually on paper, and only then type it into a computer to log your mistakes.
+* **The Foundation (Easy / Short Exercises):** Use straightforward problems to test your basic mastery of syntax and core data structures before moving forward.
+* **The Core Practice (Medium / Elaborate Problems):** Spend most of your time here. Focus on identifying optimization bottlenecks and understanding the *Best Conceivable Runtime (BCR)*.
+* **The Methodology:** For every problem, don't jump straight to the computer. Solve it mentally, determine the Big O time and space complexity, write your code **on paper**, test it manually, and only then type it into a computer to review mistakes.
+
+### 🎯 Mock Interviews: Practice the Real Skill
+
+**Do many mock interviews.** Solving LeetCode alone is much easier than solving while being interviewed.
+
+During my preparation, I did a mock interview about every two weeks with my mentor. He gave me a random problem from a topic I had already studied, preferably **outside the NeetCode 250**, and used follow-up questions to make the interview less predictable.
+
+The goal was not to memorize solutions. It was to practice solving unfamiliar problems in ~30 minutes while simultaneously:
+
+* thinking out loud;
+* explaining my approach and trade-offs;
+* writing code;
+* listening to the interviewer;
+* responding to follow-ups;
+* adapting when something unexpected happened.
+
+This is a surprisingly demanding form of multitasking. **The more mocks you do, the more natural the interview format becomes and the less mental energy you spend dealing with the pressure itself.**
 
 ### Weekly Study Plan (12 Months)
 
-There is no universal “right” pace for interview preparation. How long you need will depend on your background, available time, and familiarity with the material.
+There is no universal “right” pace for interview preparation. It depends on your background, available time, and familiarity with the material.
 
-I personally spent **about a year preparing**, studying consistently but at a relatively slow pace. Coming from Industrial Engineering rather than Computer Science, I had to learn many DSA concepts from scratch. Taking my time helped me actually understand the patterns instead of rushing through problems just to increase my problem count.
+I personally spent **about a year preparing** at a relatively slow pace. Coming from Industrial Engineering rather than Computer Science, I had to learn many DSA concepts from scratch. Taking my time helped me understand the patterns instead of simply maximizing my problem count.
 
-The plan below follows the **NeetCode 250 topic order**, with a slower pace that leaves room for practice, review, and deeper understanding.
+The plan below follows the **NeetCode 250 topic order**, with enough time for practice, review, and deeper understanding.
 
 | Weeks | Focus                          |
 | ----- | ------------------------------ |
@@ -378,14 +394,12 @@ The plan below follows the **NeetCode 250 topic order**, with a slower pace that
 | 50–51 | Bit Manipulation               |
 | 52    | Mixed Review + Mock Interviews |
 
-**If you're not a CS student:** I strongly recommend taking a Data Structures & Algorithms course at your university if you have access to one. I even attended DSA classes at my university without taking the course for credit, my curriculum didn't allow me to enroll in it, and it was still extremely valuable. 😂
+**If you're not a CS student:** I strongly recommend taking a Data Structures & Algorithms course at your university if you can. I even attended DSA classes without taking the course for credit because my curriculum didn't allow me to enroll, and it was still extremely valuable. 😂
 
-University courses and coding interviews are not always taught in the same way. Interviews often give you ready-to-use data structures, while university courses may ask you to implement things like stacks, queues, linked lists, and trees from scratch. Even so, understanding how these structures work under the hood gave me a much deeper foundation.
+University courses and coding interviews aren't always taught the same way. Interviews often provide ready-to-use data structures, while university courses may ask you to implement stacks, queues, linked lists, and trees from scratch. Understanding how they work under the hood gave me a much stronger foundation.
 
-**Take your time.** You don't need to rush through the roadmap. In my experience, studying consistently and giving yourself enough time to absorb the concepts is far more valuable than simply trying to finish as many problems as possible. NeetCode also emphasizes learning patterns, reviewing, and re-solving problems rather than treating preparation as a race.
+**Take your time.** Consistency and genuine understanding are more valuable than rushing through the roadmap or maximizing your problem count.
 
-
-</details>
 
 <details>
 <summary><b>📚 Curated Problem Lists & Tracking</b></summary>

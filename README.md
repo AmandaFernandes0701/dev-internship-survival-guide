@@ -12,8 +12,6 @@ This isn't meant to be a complete roadmap, there are already plenty of excellent
 
 At the end of this guide, I've also included the books, YouTube channels, websites, and other resources that were the most valuable throughout my preparation.
 
-**Don't optimize your preparation for passing OAs. Optimize it for becoming genuinely good at solving unseen problems.** Strong fundamentals in data structures, algorithms, and pattern recognition remain valuable regardless of the company or interview format.
-
 I hope you find something here that makes your own journey a little easier. Good luck, and happy studying!
 
 ---
@@ -34,11 +32,13 @@ I hope you find something here that makes your own journey a little easier. Good
 
 ### Verify the accepted languages first
 
-Before investing time preparing for technical interviews, verify which programming languages are accepted. Review the interview guidelines or ask your recruiter directly.
+Before investing time preparing for technical interviews, verify which programming languages are accepted. Check the interview guidelines or ask your recruiter directly.
 
-Most companies support several mainstream languages (e.g., Python, Java, C++, JavaScript, Go and C#), although some interview platforms or teams may impose specific restrictions.
+Most companies support several mainstream languages (e.g., Python, Java, C++, JavaScript, Go), but requirements may vary by company, team, or interview platform.
 
 Always confirm this beforehand rather than relying on assumptions.
+
+**My mistake:** I prepared everything in C# and assumed it would be accepted everywhere. I ended up learning Java in about a month before my interview. Luckily, the syntax was quite similar, but I could have avoided the unnecessary stress by checking beforehand. 😅
 
 ---
 
@@ -142,7 +142,7 @@ The OA exists to reduce thousands of applicants to a smaller interview pool. **A
 <details>
 <summary><b>Core Topics to Master Before Grinding</b></summary>
 
-Don't jump straight into solving LeetCode problems without understanding the fundamentals first.
+Don't jump straight into solving LeetCode problems without understanding the fundamentals first!!!
 What worked well for me was keeping each week focused on a single topic. I would spend one day learning the underlying concepts, then dedicate the rest of the week to solving problems that reinforced them.
 Trying to solve problems that rely on concepts you haven't learned yet is frustrating and inefficient. Study with intention, the time you invest in building strong fundamentals will pay off later.
 
@@ -287,9 +287,7 @@ Trying to solve problems that rely on concepts you haven't learned yet is frustr
 
 ### The Core Principle: Patterns, Not Problems
 
-> *"I solved 400+ LeetCode problems consistently. Still got stuck in interviews midway. Why? Because I didn't study patterns, I studied just problems."*
-
-LeetCode isn't about memorizing 500 solutions. It's about mastering **~14 patterns** deeply. Once you do that, most problems will feel familiar.
+LeetCode isn't about memorizing 500 solutions... It's about mastering **~14 patterns** deeply. Once you do that, most problems will feel familiar.
 
 ### The 14 Essential Patterns
 
@@ -333,8 +331,8 @@ The objective is not to reproduce code—it is to internalize the reasoning proc
 
 | Difficulty | Suggested Time |
 |------------|---------------:|
-| **Medium** | **≈65%** |
-| **Easy** | **≈30%** |
+| **Medium** | **≈75%** |
+| **Easy** | **≈20%** |
 | **Hard** | **≈5%** |
 
 This distribution reflects the difficulty of most software engineering interviews. **Medium** problems provide the highest return on investment because they reinforce the algorithmic patterns that appear most frequently during technical interviews. **Easy** problems strengthen fundamentals and improve implementation speed, while **Hard** problems are best used to expand your thinking rather than as the core of your preparation.
@@ -350,16 +348,42 @@ Your practice should follow this structure:
 *   **The Core Practice (Medium / Elaborate Problems):** Spend most of your time here. Focus on identifying optimization bottlenecks and understanding the *Best Conceivable Runtime (BCR)*. 
 *   **The Methodology:** For every problem you tackle, do not jump straight to the computer. Solve it mentally, figure out the Big O time and space complexity, write your code **on paper**, test it manually on paper, and only then type it into a computer to log your mistakes.
 
-### Weekly Study Plan (12 Weeks)
+### Weekly Study Plan (12 Months)
 
-| Week | Focus |
-|------|-------|
-| 1-2 | Arrays & Hashing + Two Pointers |
-| 3-4 | Sliding Window + Stack + Binary Search |
-| 5-6 | Linked Lists + Trees (DFS/BFS) |
-| 7-8 | Graphs + Heaps |
-| 9-10 | Dynamic Programming (1D → 2D) |
-| 11-12 | Backtracking + Mixed Review + Mocks |
+There is no universal “right” pace for interview preparation. How long you need will depend on your background, available time, and familiarity with the material.
+
+I personally spent **about a year preparing**, studying consistently but at a relatively slow pace. Coming from Industrial Engineering rather than Computer Science, I had to learn many DSA concepts from scratch. Taking my time helped me actually understand the patterns instead of rushing through problems just to increase my problem count.
+
+The plan below follows the **NeetCode 250 topic order**, with a slower pace that leaves room for practice, review, and deeper understanding.
+
+| Weeks | Focus                          |
+| ----- | ------------------------------ |
+| 1–3   | Arrays & Hashing               |
+| 4–5   | Two Pointers                   |
+| 6–7   | Sliding Window                 |
+| 8–9   | Stack                          |
+| 10–12 | Binary Search                  |
+| 13–15 | Linked List                    |
+| 16–20 | Trees                          |
+| 21–22 | Heap / Priority Queue          |
+| 23–25 | Backtracking                   |
+| 26    | Tries                          |
+| 27–31 | Graphs                         |
+| 32–33 | Advanced Graphs                |
+| 34–37 | 1-D Dynamic Programming        |
+| 38–41 | 2-D Dynamic Programming        |
+| 42–44 | Greedy                         |
+| 45–46 | Intervals                      |
+| 47–49 | Math & Geometry                |
+| 50–51 | Bit Manipulation               |
+| 52    | Mixed Review + Mock Interviews |
+
+**If you're not a CS student:** I strongly recommend taking a Data Structures & Algorithms course at your university if you have access to one. I even attended DSA classes at my university without taking the course for credit, my curriculum didn't allow me to enroll in it, and it was still extremely valuable. 😂
+
+University courses and coding interviews are not always taught in the same way. Interviews often give you ready-to-use data structures, while university courses may ask you to implement things like stacks, queues, linked lists, and trees from scratch. Even so, understanding how these structures work under the hood gave me a much deeper foundation.
+
+**Take your time.** You don't need to rush through the roadmap. In my experience, studying consistently and giving yourself enough time to absorb the concepts is far more valuable than simply trying to finish as many problems as possible. NeetCode also emphasizes learning patterns, reviewing, and re-solving problems rather than treating preparation as a race.
+
 
 </details>
 
@@ -464,28 +488,123 @@ Prepare 3-4 stories using **STAR**:
 <details>
 <summary><b>📖 Top Links & Books</b></summary>
 
+### Targeted Company Questions
+
+Once you have a solid DSA foundation, **targeted practice can make your preparation much more efficient.**
+
+Companies often have recurring topics, patterns, or question styles. Some may reuse questions, while others use variations or completely different problems. It depends heavily on the company, team, role, and interviewer.
+
+What I did:
+
+1. **Completed the NeetCode 250 first** to build a solid foundation.
+2. Then, for each company I was targeting, I focused on **recent company-tagged questions I hadn't solved yet**.
+3. I prioritized newer questions and recurring patterns rather than trying to memorize exact problems.
+
+This doesn't guarantee that you'll get one of those questions — **there are no guarantees in interviews** — but I found it extremely useful for understanding what to prioritize and becoming familiar with the types of problems a company tends to ask.
+
+You don't necessarily need LeetCode Premium for this. There are several community-maintained GitHub repositories and tools that collect company-wise interview questions, often organized by recency. Reddit can also be useful for finding recent interview experiences and comparing what candidates report.
+
+A few resources I found particularly useful:
+
+* **[LeetCode Company-Wise Interview Questions](https://github.com/snehasishroy/leetcode-companywise-interview-questions)** — company-specific questions organized by recency, difficulty, and frequency.
+* **[LeetCode Company Wise Questions](https://github.com/ssavi-ict/LeetCode-Which-Company)** — a free tool/extension for accessing company-specific questions without relying on LeetCode Premium.
+
+**Do your research.** Look into the company's interview format, the topics commonly reported by candidates, and whether they tend to reuse questions or ask variations. If you know people who have interviewed there, asking about their experience can also be valuable — although current employees may understandably be limited in what they can share.
+
+The goal isn't to memorize a company's question bank. **It's to spend your limited preparation time on the problems and patterns most relevant to your target.**
+
+
 ### Platforms
 
-| Resource | Link | Best For |
-|----------|------|----------|
-| **LeetCode** | [leetcode.com](https://leetcode.com) | Practice problems + mocks |
-| **Neetcode** | [neetcode.io](https://neetcode.io) | Structured roadmap + video explanations |
-| **Tech Interview Handbook** | [techinterviewhandbook.org](https://techinterviewhandbook.org) | Complete prep guide |
-| **Pramp** | [pramp.com](https://pramp.com) | Free mock interviews |
+| Resource                    | Link                                                           | Best For                                                     |
+| --------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------ |
+| **LeetCode**                | [leetcode.com](https://leetcode.com)                           | DSA practice, contests, and interview problems               |
+| **NeetCode**                | [neetcode.io](https://neetcode.io)                             | Structured roadmap, patterns, and video explanations         |
+| **Tech Interview Handbook** | [techinterviewhandbook.org](https://techinterviewhandbook.org) | Comprehensive interview preparation guide                    |
+| **Pramp**                   | [pramp.com](https://www.pramp.com)                             | Free peer-to-peer mock interviews                            |
+| **HackerRank**              | [hackerrank.com](https://www.hackerrank.com)                   | Coding practice and interview preparation                    |
+| **GeeksforGeeks**           | [geeksforgeeks.org](https://www.geeksforgeeks.org)             | DSA explanations, tutorials, and practice                    |
+| **Exercism**                | [exercism.org](https://exercism.org)                           | Improving programming fundamentals and language fluency      |
+| **Codeforces**              | [codeforces.com](https://codeforces.com)                       | Competitive programming and problem-solving                  |
+| **DSA Tracker**             | [dsatracker.tech](https://www.dsatracker.tech)                 | Progress tracking, curated problem sheets, and study streaks |
+| **CodeTrack Pro**           | [GitHub](https://github.com/javydevx/leetcode-tracker)         | LeetCode progress tracking + spaced repetition               |
+| **LeetTrackr**              | [GitHub](https://github.com/realsubodh/LeetTrackr)             | LeetCode statistics, progress, and activity tracking         |
+| **CodeKaro**                | [codekaro.live](https://codekaro.live)                         | Free peer mock interviews with a shared editor               |
 
 ### Books
 
-| Book | Why |
-|------|-----|
-| **Cracking the Coding Interview** (Gayle Laakmann McDowell) | Classic — covers fundamentals and interview mechanics |
-| **Elements of Programming Interviews** | More advanced — great for FAANG prep |
+| Book                                                        | Why                                                                                           |
+| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Cracking the Coding Interview** (Gayle Laakmann McDowell) | Classic — covers DSA fundamentals, problem-solving, and interview mechanics                   |
+| **Elements of Programming Interviews**                      | More advanced — a large collection of challenging programming problems and interview patterns |
+| **Algorithms** (Robert Sedgewick & Kevin Wayne)             | Excellent for building a deeper understanding of algorithms and data structures               |
+| **Clean Code** (Robert C. Martin)                           | Practical principles for writing readable, maintainable code                                  |
+| **The Pragmatic Programmer** (David Thomas & Andrew Hunt)   | Practical software engineering principles and problem-solving mindset                         |
+
+> **Don't neglect software engineering fundamentals.** Interviews can evaluate OOP, clean code, readability, and engineering judgment even when they're not explicitly asked. Know the principles, but also understand **when to apply them and when they add unnecessary complexity**. In the age of AI-generated code, being able to review, simplify, and improve code is increasingly important.
+
 
 ### YouTube Channels
 
-| Channel | Best For |
-|---------|----------|
-| **Neetcode** | Visual explanations of LeetCode problems |
-| **Take U Forward** | DSA fundamentals |
+I used YouTube **a lot** during my preparation. These were some of the channels that helped me most, organized by what I used them for.
+
+#### DSA & Computer Science Fundamentals
+
+| Channel                                                       | Best For                                                                 |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **[Abdul Bari](https://www.youtube.com/@abdul_bari)**         | Algorithms, data structures, and deeper theoretical understanding        |
+| **[CS Dojo](https://www.youtube.com/@CSDojo)**                | DSA, coding interviews, and general software engineering guidance        |
+| **[freeCodeCamp.org](https://www.youtube.com/@freecodecamp)** | Full courses, CS fundamentals, programming, and many long-form tutorials |
+| **[Bro Code](https://www.youtube.com/@BroCodez)**             | Programming fundamentals and quick language/framework explanations       |
+| **[Take U Forward](https://www.youtube.com/@takeUforward)**   | DSA fundamentals and structured problem-solving                          |
+
+#### Coding Practice & Problem Walkthroughs
+
+| Channel                                                | Best For                                                |
+| ------------------------------------------------------ | ------------------------------------------------------- |
+| **[NeetCode](https://www.youtube.com/@NeetCode)**      | Step-by-step solutions and recognizing problem patterns |
+| **[Greg Hogg](https://www.youtube.com/@GregHogg)**     | Coding interview preparation, DSA, and problem-solving  |
+| **[Nick White](https://www.youtube.com/@NickWhite)**   | LeetCode walkthroughs and interview problem-solving     |
+
+#### Mock Interviews
+
+| Channel                                                                     | Best For                                                                                |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| **[Alpha-Code](https://www.youtube.com/@AlphaCodeCS)** | Coding interview problems and technical preparation     |
+| **[Clément Mihailescu](https://www.youtube.com/@clem)**| Coding interviews, interview preparation, and career advice |
+
+#### Behavioral Interviews & Communication
+
+| Channel                                                     | Best For                                                                                      |
+| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **[Jeff H Sipe – Practice Interviews](https://www.youtube.com/@JeffHSipe)** | Realistic mock technical interviews and practicing communication while solving problems |
+| **[CareerVidz](https://www.youtube.com/@CareerVidz)**       | Behavioral interviews, common interview questions, and answer structure                       |
+| **[Life at Google](https://www.youtube.com/@LifeatGoogle)** | Google interview guidance, hiring process, and examples of technical/non-technical interviews |
+
+> **Don't underestimate communication.** In technical interviews, you're not only being evaluated on whether you can solve the problem. How you communicate your approach, clarify requirements, explain trade-offs, respond to feedback, and think out loud can matter significantly.
+
+> **And don't just watch.** It's very easy to spend hours consuming interview content and feel productive without actually improving. Try the problem yourself first, write code, explain your reasoning out loud, and only then use the video to fill the gaps.
+
+#### Industry, Career & Day-in-the-Life Content
+
+I also really enjoyed **“day in the life” and SWE vlog content**, especially from engineers working at large tech companies. This wasn't a study resource in the traditional sense, but it helped me a lot on difficult days. Seeing other people studying, working, and building their careers gave me motivation to keep going when I was tired or discouraged.
+
+Just be careful with this type of content too: **don't turn motivational videos into another form of procrastination.** Use them as inspiration, then go back to studying.
+
+### A note on how to use YouTube
+
+You don't need to watch everything. Pick a few trusted channels, use them when you need an explanation, and **prioritize active practice over passive consumption**.
+
+A good rule is:
+
+**Try → struggle → study → solve → review.**
+
+Not:
+
+**Watch → watch another video → watch a motivational video → somehow it's 2 a.m.** 😅
+
+The goal is not to become very good at watching people solve problems. **The goal is to become good at solving them yourself.**
+
 
 </details>
 

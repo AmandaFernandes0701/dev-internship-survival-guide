@@ -140,9 +140,6 @@ The OA exists to reduce thousands of applicants to a smaller interview pool. **A
 ## 2. Data Structures & Algorithms (DSA) Foundations
 
 <details>
-<summary><b>Core Topics to Master Before Grinding</b></summary>
-
-<details>
 <summary><b>🧠 Core Topics to Master Before Grinding</b></summary>
 
 Don't jump straight into solving hundreds of LeetCode problems without understanding the fundamentals first.

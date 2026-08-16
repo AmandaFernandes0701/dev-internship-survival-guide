@@ -142,9 +142,151 @@ The OA exists to reduce thousands of applicants to a smaller interview pool. **A
 <details>
 <summary><b>Core Topics to Master Before Grinding</b></summary>
 
-Don't jump straight into solving LeetCode problems without understanding the fundamentals first!!!
-What worked well for me was keeping each week focused on a single topic. I would spend one day learning the underlying concepts, then dedicate the rest of the week to solving problems that reinforced them.
-Trying to solve problems that rely on concepts you haven't learned yet is frustrating and inefficient. Study with intention, the time you invest in building strong fundamentals will pay off later.
+<details>
+<summary><b>🧠 Core Topics to Master Before Grinding</b></summary>
+
+Don't jump straight into solving hundreds of LeetCode problems without understanding the fundamentals first.
+
+A strong interview preparation process is not simply:
+
+**learn → solve → move on**
+
+A better loop is:
+
+**learn → implement → solve → explain → review → re-solve**
+
+Before heavily relying on problem-solving platforms, make sure you understand the fundamental data structures, algorithms, and complexity concepts that repeatedly appear in technical interviews.
+
+### Data Structures
+
+You should understand what each structure is, how it works, when to use it, and its fundamental time/space trade-offs.
+
+* **Arrays**
+
+  * Static vs. dynamic arrays
+  * 1D and 2D arrays
+  * Indexing and traversal
+  * Insertion/deletion trade-offs
+
+* **Linked Lists**
+
+  * Singly linked lists
+  * Doubly linked lists
+  * Pointer manipulation
+  * Fast/slow pointers
+
+* **Stacks**
+
+  * LIFO
+  * Common applications
+  * Monotonic stacks
+
+* **Queues**
+
+  * FIFO
+  * Deques
+  * BFS applications
+
+* **Hash Tables / Sets**
+
+  * Hashing
+  * Key-value lookup
+  * Frequency counting
+  * Collision concept
+  * Average vs. worst-case complexity
+
+* **Trees**
+
+  * Binary trees
+  * Binary Search Trees
+  * Tree traversals
+  * Recursion
+
+* **Tries**
+
+  * Prefix-based lookup
+  * Autocomplete and dictionary problems
+
+* **Heaps / Priority Queues**
+
+  * Min-heaps
+  * Max-heaps
+  * Top-K problems
+  * Scheduling
+
+* **Graphs**
+
+  * Adjacency lists
+  * Adjacency matrices
+  * Directed vs. undirected graphs
+  * Weighted vs. unweighted graphs
+
+### Algorithms
+
+At minimum, become comfortable with:
+
+* Sorting
+* Binary Search
+* Recursion
+* Greedy algorithms
+* Breadth-First Search (BFS)
+* Depth-First Search (DFS)
+* Tree traversals:
+
+  * Pre-order
+  * In-order
+  * Post-order
+* Dijkstra's algorithm
+* Topological Sort
+* Disjoint Set Union (Union-Find)
+* Dynamic Programming
+
+### Common Problem-Solving Techniques
+
+You should also recognize the following patterns:
+
+* Two Pointers
+* Sliding Window
+* Fast & Slow Pointers
+* Monotonic Stack
+* Two Heaps
+* Prefix Sum
+* Backtracking
+* Binary Search on the answer
+
+### Complexity Analysis
+
+Before moving heavily into problem-solving, make sure you can reason about:
+
+* Time complexity
+* Space complexity
+* Best, average, and worst cases
+* Amortized complexity
+* Trade-offs between different approaches
+
+You don't need to memorize every implementation detail.
+
+You **do** need to understand why a particular data structure or algorithm is appropriate for a problem.
+
+### Learn the Fundamentals — Then Start Practicing
+
+One important principle is that studying theory should quickly lead into practice.
+
+You do not need to completely "finish learning DSA" before solving problems.
+
+A more effective loop is:
+
+1. Learn the basic concept.
+2. Solve a few representative problems.
+3. Identify what you don't understand.
+4. Return to the theory when necessary.
+5. Practice again.
+
+In other words:
+
+> **Don't wait until you feel completely prepared to start practicing. Practice is part of how you become prepared.**
+
+</details>
 
 </details>
 
@@ -339,38 +481,330 @@ This distribution reflects the difficulty of most software engineering interview
 
 </details>
 
-### ✍️ Practice Strategy: Quality Over Quantity
+<details>
+<summary><b>✍️ Practice Strategy: Quality Over Quantity</b></summary>
 
-Your practice should follow this structure:
+Your practice should follow a deliberate process.
 
-* **The Foundation (Easy / Short Exercises):** Use straightforward problems to test your basic mastery of syntax and core data structures before moving forward.
-* **The Core Practice (Medium / Elaborate Problems):** Spend most of your time here. Focus on identifying optimization bottlenecks and understanding the *Best Conceivable Runtime (BCR)*.
-* **The Methodology:** For every problem, don't jump straight to the computer. Solve it mentally, determine the Big O time and space complexity, write your code **on paper**, test it manually, and only then type it into a computer to review mistakes.
+### 1. Understand the problem
 
-### 🎯 Mock Interviews: Practice the Real Skill
+Before touching the keyboard:
 
-**Do many mock interviews.** Solving LeetCode alone is much easier than solving while being interviewed.
+* Read the problem carefully.
+* Identify the inputs and outputs.
+* Check the constraints.
+* Look for ambiguities.
+* Think about edge cases.
+* Restate the problem in your own words.
 
-During my preparation, I did a mock interview about every two weeks with my mentor. He gave me a random problem from a topic I had already studied, preferably **outside the NeetCode 250**, and used follow-up questions to make the interview less predictable.
+### 2. Start with the brute-force solution
 
-The goal was not to memorize solutions. It was to practice solving unfamiliar problems in ~30 minutes while simultaneously:
+Don't immediately search for the "clever" solution.
 
-* thinking out loud;
-* explaining my approach and trade-offs;
-* writing code;
-* listening to the interviewer;
-* responding to follow-ups;
-* adapting when something unexpected happened.
+First ask:
 
-This is a surprisingly demanding form of multitasking. **The more mocks you do, the more natural the interview format becomes and the less mental energy you spend dealing with the pressure itself.**
+> **What is the simplest correct solution I can think of?**
 
-### Weekly Study Plan (12 Months)
+Write it down mentally, on paper, or in pseudocode.
 
-There is no universal “right” pace for interview preparation. It depends on your background, available time, and familiarity with the material.
+Then analyze:
 
-I personally spent **about a year preparing** at a relatively slow pace. Coming from Industrial Engineering rather than Computer Science, I had to learn many DSA concepts from scratch. Taking my time helped me understand the patterns instead of simply maximizing my problem count.
+* time complexity;
+* space complexity;
+* bottlenecks.
 
-The plan below follows the **NeetCode 250 topic order**, with enough time for practice, review, and deeper understanding.
+The brute-force solution gives you a baseline from which you can reason about optimization.
+
+### 3. Optimize deliberately
+
+Ask:
+
+* Where is the bottleneck?
+* Am I repeating work?
+* Can I trade space for time?
+* Would a hash table help?
+* Is the input sorted?
+* Could two pointers work?
+* Could a sliding window work?
+* Is this a graph traversal?
+* Is there overlapping subproblem structure?
+* Can I use a heap?
+* Can I binary-search the answer?
+
+Optimization should be a consequence of reasoning, not pattern guessing.
+
+### 4. Spend enough time struggling
+
+A useful rule of thumb is to spend around **20–30 minutes** seriously attempting a problem before consulting an editorial or solution.
+
+If you're completely blocked, don't turn the session into a two-hour staring contest with the same `for` loop.
+
+Instead:
+
+1. Read a hint or editorial.
+2. Identify the underlying pattern.
+3. Understand why the solution works.
+4. Close the solution.
+5. Re-implement it from memory.
+6. Explain the approach.
+7. Revisit the problem later.
+
+The goal is not to reproduce someone else's code.
+
+The goal is to internalize the reasoning well enough to transfer it to a different problem.
+
+### 5. Test manually
+
+Before submitting:
+
+* test the normal case;
+* test an empty input;
+* test a single element;
+* test duplicates;
+* test negative values when relevant;
+* test zero;
+* test very small inputs;
+* test very large inputs;
+* test boundary conditions.
+
+### 6. Record the lesson
+
+After solving, write down:
+
+* the pattern;
+* the key insight;
+* the bottleneck;
+* the complexity;
+* what initially confused you;
+* what you would look for next time.
+
+**Quality > quantity.**
+
+The number of problems you solve matters far less than how much problem-solving ability you extract from each one.
+
+</details>
+
+
+<details>
+<summary><b>🧠 Understanding ≠ Learning</b></summary>
+
+One of the easiest traps in technical interview preparation is confusing **recognition with mastery**.
+
+You can watch a video, read an editorial, and feel that everything makes sense — without actually being able to reproduce the reasoning later.
+
+### Understanding
+
+You understand something when you can follow an explanation and recognize why it makes sense.
+
+### Learning
+
+You have learned something when you can **reproduce, explain, and apply the concept independently**, including after some time has passed and in a slightly different problem.
+
+This distinction matters enormously for DSA.
+
+For example:
+
+> "I watched a video about sliding window and everything made sense."
+
+is not the same as:
+
+> "I can recognize when sliding window applies, explain why it works, implement it, analyze its complexity, and adapt it to an unfamiliar problem."
+
+### A practical test
+
+After studying a concept, close the tutorial and ask yourself:
+
+* Can I explain the idea without looking at my notes?
+* Can I implement the basic technique from memory?
+* Can I explain when it should and should not be used?
+* Can I analyze its time and space complexity?
+* Can I solve a new problem using it?
+* Can I explain the solution to someone else?
+
+If the answer is no, that's not failure.
+
+It simply means the material has moved from **exposure** to **practice** — which is exactly where learning happens.
+
+### Avoid the "perfect resource" trap
+
+You may eventually find a video, book, or course that suddenly makes a topic feel much clearer.
+
+That's useful, but don't assume that the resource itself created the understanding.
+
+Often, understanding improves because you've already encountered the concept several times through different explanations, exercises, mistakes, and applications.
+
+Your knowledge is cumulative.
+
+</details>
+
+<details>
+<summary><b>🎯 Focus Before Breadth</b></summary>
+
+A common mistake during DSA preparation is trying to learn too many topics simultaneously.
+
+You open one tab about graphs, another about dynamic programming, another about system design, another about trees — and suddenly you're studying everything while mastering nothing.
+
+### Prefer depth before breadth
+
+When learning a new topic:
+
+1. Learn the fundamental concept.
+2. Solve a small number of representative problems.
+3. Explain the approach in your own words.
+4. Identify gaps in your understanding.
+5. Review only what you need.
+6. Re-solve problems later.
+7. Move to the next topic.
+
+You don't need to master an entire field before moving forward.
+
+But you should avoid constantly switching between unrelated topics simply because another resource looks interesting.
+
+> **One topic understood deeply is usually more valuable than five topics superficially recognized.**
+
+This does not mean your preparation must be rigid. Interleaving and mixed review are useful once you have established a foundation.
+
+The important distinction is:
+
+**exploration is useful; constant context switching is not.**
+
+</details>
+
+
+<details>
+<summary><b>🎯 Mock Interviews: Practice the Real Skill</b></summary>
+
+Solving LeetCode alone is fundamentally different from solving a problem while another person watches, asks questions, challenges your assumptions, and expects you to communicate your reasoning.
+
+That's why mock interviews are essential.
+
+### Start mocks earlier than you think
+
+Don't wait until you believe you're "ready."
+
+Mocks can reveal:
+
+* knowledge gaps;
+* communication problems;
+* poor time management;
+* difficulty thinking aloud;
+* difficulty handling follow-up questions;
+* anxiety under pressure;
+* weak debugging habits.
+
+In other words, mocks are not only a final rehearsal.
+
+**They are a diagnostic tool.**
+
+### What a good mock should simulate
+
+Whenever possible, reproduce the real interview environment:
+
+* use a realistic time limit;
+* don't look at solutions;
+* communicate your reasoning aloud;
+* ask clarifying questions;
+* write code while talking;
+* test your implementation;
+* discuss complexity;
+* handle follow-up questions;
+* receive feedback afterward.
+
+### Practice unfamiliar problems
+
+Don't only mock yourself with problems you already know.
+
+Whenever possible, use a random problem from a topic you've studied but haven't memorized.
+
+This tests whether you actually understand the pattern rather than whether you recognize a familiar question.
+
+### What to evaluate after every mock
+
+Ask:
+
+| Area                  | Questions                                |
+| --------------------- | ---------------------------------------- |
+| Problem Understanding | Did I ask enough clarifying questions?   |
+| Communication         | Did I explain my reasoning clearly?      |
+| Algorithm             | Did I identify an appropriate approach?  |
+| Optimization          | Did I recognize the bottleneck?          |
+| Coding                | Was my implementation clean and correct? |
+| Testing               | Did I test edge cases?                   |
+| Complexity            | Could I justify Big-O?                   |
+| Time Management       | Did I spend too long on one step?        |
+| Adaptability          | How did I react to hints or changes?     |
+
+### Mock frequency
+
+During my own preparation, I practiced mocks regularly.
+
+A useful starting point is **one mock per week**, then adjust the frequency according to your preparation stage and how much feedback you need.
+
+The important thing is consistency, not blindly maximizing the number of mocks.
+
+### Resources
+
+**Pramp** is one option for peer-to-peer mock interviews.
+
+You can also practice with:
+
+* classmates;
+* mentors;
+* friends;
+* colleagues;
+* other candidates preparing for interviews.
+
+If possible, practice in English occasionally when applying to international companies.
+
+A mock interview should leave you with a concrete answer to:
+
+> **"What should I practice next?"**
+
+**Source / inspiration:** Leandro Moreira, *Preparação para Entrevistas de Programação*.
+
+</details>
+
+
+
+<details>
+<summary><b>🗓️ Weekly Study Plan (12 Months)</b></summary>
+
+### How to Use This Roadmap
+
+This roadmap is a **framework, not a deadline**.
+
+The amount of time required for each topic depends on:
+
+* your previous programming experience;
+* your DSA background;
+* your available study time;
+* how quickly you retain concepts;
+* the difficulty of the problems you encounter.
+
+If a topic takes longer than expected, that is not necessarily a problem.
+
+### Use readiness, not the calendar
+
+Before moving on, ask:
+
+* Can I explain the core data structure?
+* Can I implement its basic operations?
+* Can I recognize common patterns involving it?
+* Can I solve representative Easy problems?
+* Can I solve at least some Medium problems?
+* Can I explain my solution without reading notes?
+* Can I analyze time and space complexity?
+
+If the answer is mostly yes, continue.
+
+If not, spend more time practicing.
+
+**The goal is not to finish the roadmap.**
+
+The goal is to become capable of solving unfamiliar problems.
+
+This is why consistency and genuine understanding matter more than maximizing the number of problems completed.
+
 
 | Weeks | Focus                          |
 | ----- | ------------------------------ |
@@ -400,6 +834,8 @@ University courses and coding interviews aren't always taught the same way. Inte
 
 **Take your time.** Consistency and genuine understanding are more valuable than rushing through the roadmap or maximizing your problem count.
 
+</details>
+
 
 <details>
 <summary><b>📚 Curated Problem Lists & Tracking</b></summary>
@@ -420,24 +856,72 @@ University courses and coding interviews aren't always taught the same way. Inte
 
 One of the biggest mistakes people make is treating LeetCode as a checklist.
 
-Don't just solve a problem once and move on. The goal isn't to memorize solutions—it's to recognize patterns and build problem-solving intuition. Reviewing previously solved problems using **spaced repetition** is one of the most effective ways to make that knowledge stick.
+Solving a problem once does not necessarily mean that you learned the underlying pattern.
 
-Keeping a tracker also helps you identify weak topics, monitor your consistency, and quickly review important patterns before interviews.
+The goal is not:
 
-Create a tracker (Notion, Google Sheets, or Excel) with the following columns:
+> "How many problems have I solved?"
+
+The better question is:
+
+> **"How many patterns can I recognize and reproduce independently?"**
+
+### Use spaced repetition
+
+Don't simply solve a problem and permanently archive it.
+
+Instead, revisit important problems after increasing intervals.
+
+For example:
+
+**Day 0 → Day 3 → Day 7 → Day 14 → Day 30**
+
+When reviewing:
+
+1. Hide the solution.
+2. Read only the problem statement.
+3. Try to reconstruct the approach.
+4. Explain the idea aloud.
+5. Implement the solution.
+6. Analyze time and space complexity.
+7. Compare with your previous approach.
+8. Record what you forgot or misunderstood.
+
+The important part is attempting retrieval **before looking at your notes**.
+
+If you can recognize the solution only after seeing it again, you may remember the problem — but you have not necessarily developed transferable problem-solving ability.
+
+### Track more than "Solved"
+
+A useful tracker can contain:
 
 | Column            | Purpose                                 |
 | ----------------- | --------------------------------------- |
 | Problem Name      | Title + LeetCode number                 |
 | Topic             | Arrays, DP, Trees, etc.                 |
+| Pattern           | Sliding Window, DFS, Two Pointers, etc. |
 | Difficulty        | Easy / Medium / Hard                    |
 | Status            | To Do / In Progress / Solved / Revised  |
 | Date Solved       | Track consistency                       |
-| Solution Approach | 1–2 sentences describing your intuition |
+| Solution Approach | 1–2 sentences describing the intuition  |
 | Time Complexity   | Big-O analysis                          |
 | Space Complexity  | Big-O analysis                          |
-| Key Takeaway      | Pattern learned or common mistake       |
-| Re-solved?        | Track reviews using spaced repetition   |
+| Key Takeaway      | Pattern learned or mistake made         |
+| Re-solved?        | Track spaced repetition                 |
+| Confidence        | Low / Medium / High                     |
+
+### The real purpose of the tracker
+
+A tracker should help you:
+
+* identify weak topics;
+* detect recurring mistakes;
+* measure consistency;
+* schedule reviews;
+* recognize patterns;
+* prepare efficiently before interviews.
+
+**Do not optimize for the number of green checkmarks. Optimize for retention and transfer.**
 
 ### Recommended Templates & Resources
 
@@ -460,40 +944,251 @@ These are excellent resources created by the community that helped shape my own 
 ## 4. Essential Communication & Behavioral Cheat Sheet
 
 <details>
-<summary><b>🗣️ Interview Day Mechanics (Do Not Skip)</b></summary>
+<summary><b>🗣️ Interview Day Mechanics — A Step-by-Step Process</b></summary>
 
-Technical perfection is useless if you cannot communicate.
+Technical interviews are not simply coding tests.
 
-### Think Out Loud
+The interviewer is evaluating how you **understand problems, reason about trade-offs, communicate, adapt, and collaborate**.
 
-Never stay silent for more than **30 seconds**. Explain:
-- Your thought process
-- Trade-offs you're considering
-- Why you're choosing a particular data structure
-- Edge cases you're thinking about
+A strong candidate should therefore treat the interview as a collaborative problem-solving session rather than a silent exam.
 
-### Clarify the Problem
+### Before Writing Code
 
-Before writing a single line of code:
-- Ask about edge cases (empty inputs, negative numbers, size constraints)
-- Confirm input/output formats
-- Clarify constraints (time/space)
+#### 1. Listen carefully
+
+Don't start coding immediately.
+
+Make sure you understand:
+
+* what the problem is asking;
+* the input format;
+* the expected output;
+* the constraints;
+* what assumptions are allowed;
+* whether the problem statement is ambiguous.
+
+If something is unclear, **ask**.
+
+Ambiguity can be intentional: interviewers may want to see whether you notice missing information and ask useful questions.
+
+#### 2. Restate the problem
+
+Explain the problem back in your own words.
+
+For example:
+
+> "So, if I understand correctly, we need to return X given Y, and the input can contain Z. Is that correct?"
+
+This prevents solving the wrong problem.
+
+#### 3. Validate the examples
+
+Don't rely only on the example provided by the interviewer.
+
+Create one or two additional examples.
+
+Include useful edge cases, but don't waste interview time constructing enormous examples.
+
+Walk through them manually.
+
+#### 4. Start with the brute-force approach
+
+Before searching for the optimal solution, describe the simplest correct approach.
+
+Explain:
+
+* how it works;
+* its time complexity;
+* its space complexity;
+* why it may be too slow or expensive.
+
+This gives you a baseline for optimization.
+
+#### 5. Discuss the optimized approach
+
+Now look for bottlenecks.
+
+Explain what you're changing and **why**.
+
+For example:
+
+> "The brute-force approach repeatedly searches the array, which gives us O(n²). If we store previously seen values in a hash table, we can reduce the lookup cost and obtain an O(n) solution."
+
+The important part is not saying "I'll use a hash map."
+
+The important part is explaining **why the data structure changes the complexity**.
+
+#### 6. Walk through the algorithm
+
+Before writing implementation details, use:
+
+* pseudocode;
+* a small example;
+* a diagram;
+* or verbal reasoning.
+
+Then manually execute the algorithm against your examples.
+
+This is a cheap way to catch logical errors before implementation.
+
+---
+
+### While Coding
+
+#### 7. Keep communicating
+
+Don't disappear into silence.
+
+Think out loud:
+
+* explain what you're implementing;
+* mention assumptions;
+* explain important decisions;
+* call out trade-offs;
+* verbalize uncertainty when necessary.
+
+You don't need to narrate every character you type.
+
+The goal is to make your reasoning observable.
+
+#### 8. Implement the solution
+
+Use the language you are most comfortable with.
+
+Prefer clarity over cleverness.
+
+Interview code should be:
+
+* correct;
+* readable;
+* maintainable;
+* appropriately simple.
+
+#### 9. Test your implementation
+
+Don't assume that compiling means the solution is correct.
+
+Walk through your code with:
+
+* the original example;
+* your own example;
+* edge cases;
+* boundary conditions.
+
+Look specifically for:
+
+* off-by-one errors;
+* incorrect loop bounds;
+* missing base cases;
+* null/empty inputs;
+* duplicate values;
+* incorrect pointer movement.
+
+#### 10. Revisit complexity
+
+After implementation, explicitly state:
+
+> **Time:** O(...)
+
+> **Space:** O(...)
+
+Explain where those costs come from.
+
+If you changed the implementation during the interview, update your complexity analysis accordingly.
+
+---
 
 ### When You Get Stuck
 
-It's OK to ask for a hint. Interviewers **want** to see how you respond to guidance.
+Getting stuck is normal.
 
-Say something like: *"I'm considering X approach, but I'm not sure about Y. Could you give me a small hint?"*
+Don't silently struggle until the interview ends.
 
-### Behavioral (STAR Method)
+A better approach is to communicate your current reasoning:
 
-Prepare 3-4 stories using **STAR**:
-- **S**ituation: What was the context?
-- **T**ask: What was the challenge?
-- **A**ction: What did *you* do? (Focus on YOUR contribution)
-- **R**esult: What was the quantifiable outcome?
+> "I'm considering X because of Y, but I'm not sure how to handle Z. Could you give me a small hint?"
+
+Then incorporate the hint and continue reasoning.
+
+The interviewer is also evaluating **how you respond to new information**.
+
+---
+
+### Treat the Interviewer as a Collaborator
+
+A coding interview is closer to collaborative problem-solving than to an exam.
+
+You should be:
+
+* professional;
+* curious;
+* receptive to feedback;
+* willing to ask questions;
+* conscious of time.
+
+Think of the interviewer as a potential teammate who is trying to understand how you work.
 
 </details>
+
+<details>
+<summary><b>💭 Rejection Is Part of the Process</b></summary>
+
+One of the least discussed parts of interview preparation is rejection.
+
+You can be technically strong and still fail an interview.
+
+Interviews contain randomness:
+
+* the specific problem you receive;
+* your familiarity with the pattern;
+* the interviewer;
+* communication dynamics;
+* time pressure;
+* the interviewer's expectations;
+* your mental state that day.
+
+A rejection is therefore **not a reliable measurement of your overall intelligence or engineering potential**.
+
+### Don't optimize for never failing
+
+Instead, optimize for:
+
+**learning → practicing → simulating → reviewing → improving**
+
+If an interview goes badly, ask:
+
+* What topic exposed a weakness?
+* Did I misunderstand the problem?
+* Did I communicate poorly?
+* Did I spend too much time on one approach?
+* Did I struggle with a particular data structure?
+* Did I fail to test edge cases?
+* Did I panic when I got stuck?
+* What should I practice before the next interview?
+
+Turn the interview into feedback.
+
+### Consistency beats intensity
+
+You don't need to study for six hours every day.
+
+A sustainable schedule that you can maintain for months is often more valuable than an intense schedule that lasts two weeks.
+
+For example:
+
+* 3 sessions/week × 2 hours during long-term preparation;
+* 5 sessions/week × 1 hour when an interview is approaching.
+
+These are examples, not universal rules.
+
+The correct schedule depends on your available time, background, and goals.
+
+> **There is no magic "learn DSA in X days" formula.**
+
+Give yourself enough time to make mistakes, revisit concepts, and build genuine intuition.
+
+</details>
+
 
 ---
 
@@ -535,6 +1230,7 @@ The goal isn't to memorize a company's question bank. **It's to spend your limit
 | **LeetCode**                | [leetcode.com](https://leetcode.com)                           | DSA practice, contests, and interview problems               |
 | **NeetCode**                | [neetcode.io](https://neetcode.io)                             | Structured roadmap, patterns, and video explanations         |
 | **Tech Interview Handbook** | [techinterviewhandbook.org](https://techinterviewhandbook.org) | Comprehensive interview preparation guide                    |
+| Preparação para Entrevistas de Programação| [leandromoreira.com](https://docs.google.com/document/d/1gRL6ILI2XI8_eFGCrr-Q_ZxkdcnzECa-WN0kX0GVIDc/edit?tab=t.0) | Interview preparation, problem-solving process, learning methodology, spaced repetition, and mock interviews |
 | **Pramp**                   | [pramp.com](https://www.pramp.com)                             | Free peer-to-peer mock interviews                            |
 | **HackerRank**              | [hackerrank.com](https://www.hackerrank.com)                   | Coding practice and interview preparation                    |
 | **GeeksforGeeks**           | [geeksforgeeks.org](https://www.geeksforgeeks.org)             | DSA explanations, tutorials, and practice                    |
@@ -556,7 +1252,6 @@ The goal isn't to memorize a company's question bank. **It's to spend your limit
 | **The Pragmatic Programmer** (David Thomas & Andrew Hunt)   | Practical software engineering principles and problem-solving mindset                         |
 
 > **Don't neglect software engineering fundamentals.** Interviews can evaluate OOP, clean code, readability, and engineering judgment even when they're not explicitly asked. Know the principles, but also understand **when to apply them and when they add unnecessary complexity**. In the age of AI-generated code, being able to review, simplify, and improve code is increasingly important.
-
 
 ### YouTube Channels
 

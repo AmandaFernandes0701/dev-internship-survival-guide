@@ -285,7 +285,7 @@ In other words:
 
 </details>
 
-</details>
+---
 
 <details>
 <summary><b>📊 Arrays & Hashing</b></summary>
@@ -307,7 +307,6 @@ In other words:
 
 </details>
 
----
 
 <details>
 <summary><b>↔️ Two Pointers & Sliding Window</b></summary>
@@ -329,7 +328,6 @@ In other words:
 
 </details>
 
----
 
 <details>
 <summary><b>🔗 Linked Lists</b></summary>
@@ -351,7 +349,6 @@ In other words:
 
 </details>
 
----
 
 <details>
 <summary><b>🌳 Trees & Graphs</b></summary>
@@ -373,7 +370,6 @@ In other words:
 
 </details>
 
----
 
 <details>
 <summary><b>⛰️ Heaps / Priority Queues</b></summary>
@@ -395,7 +391,6 @@ In other words:
 
 </details>
 
----
 
 <details>
 <summary><b>🧩 Dynamic Programming</b></summary>
@@ -417,7 +412,6 @@ In other words:
 
 </details>
 
----
 
 ## 3. The LeetCode Strategy & Coding Patterns
 
@@ -1100,7 +1094,6 @@ The goal isn't to memorize a company's question bank. **It's to spend your limit
 | **LeetCode**                | [leetcode.com](https://leetcode.com)                           | DSA practice, contests, and interview problems               |
 | **NeetCode**                | [neetcode.io](https://neetcode.io)                             | Structured roadmap, patterns, and video explanations         |
 | **Tech Interview Handbook** | [techinterviewhandbook.org](https://techinterviewhandbook.org) | Comprehensive interview preparation guide                    |
-| Preparação para Entrevistas de Programação| [leandromoreira.com](https://docs.google.com/document/d/1gRL6ILI2XI8_eFGCrr-Q_ZxkdcnzECa-WN0kX0GVIDc/edit?tab=t.0) | Interview preparation, problem-solving process, learning methodology, spaced repetition, and mock interviews |
 | **Pramp**                   | [pramp.com](https://www.pramp.com)                             | Free peer-to-peer mock interviews                            |
 | **HackerRank**              | [hackerrank.com](https://www.hackerrank.com)                   | Coding practice and interview preparation                    |
 | **GeeksforGeeks**           | [geeksforgeeks.org](https://www.geeksforgeeks.org)             | DSA explanations, tutorials, and practice                    |
@@ -1111,11 +1104,12 @@ The goal isn't to memorize a company's question bank. **It's to spend your limit
 | **LeetTrackr**              | [GitHub](https://github.com/realsubodh/LeetTrackr)             | LeetCode statistics, progress, and activity tracking         |
 | **CodeKaro**                | [codekaro.live](https://codekaro.live)                         | Free peer mock interviews with a shared editor               |
 
-### Books
+### Books and Docs
 
-| Book                                                        | Why                                                                                           |
+| Book/Doc                                                        | Why                                                                                           |
 | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | **Cracking the Coding Interview** (Gayle Laakmann McDowell) | Classic — covers DSA fundamentals, problem-solving, and interview mechanics                   |
+| [Preparação para Entrevistas de Programação](https://docs.google.com/document/d/1gRL6ILI2XI8_eFGCrr-Q_ZxkdcnzECa-WN0kX0GVIDc/edit?tab=t.0) - By [Leandro Moreira](https://github.com/leandromoreira)| Interview preparation, problem-solving process, learning methodology, spaced repetition, and mock interviews |
 | **Elements of Programming Interviews**                      | More advanced — a large collection of challenging programming problems and interview patterns |
 | **Algorithms** (Robert Sedgewick & Kevin Wayne)             | Excellent for building a deeper understanding of algorithms and data structures               |
 | **Clean Code** (Robert C. Martin)                           | Practical principles for writing readable, maintainable code                                  |

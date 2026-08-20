@@ -422,34 +422,6 @@ In other words:
 ## 3. The LeetCode Strategy & Coding Patterns
 
 <details>
-<summary><b>🎯 How to Practice Efficiently</b></summary>
-
-### The Core Principle: Patterns, Not Problems
-
-LeetCode isn't about memorizing 500 solutions... It's about mastering **~14 patterns** deeply. Once you do that, most problems will feel familiar.
-
-### The 14 Essential Patterns
-
-| Pattern | When to Use | Example Problems |
-|---------|-------------|------------------|
-| **Sliding Window** | Subarrays/substrings, contiguous, min/max in range | Longest Substring Without Repeating, Max Consecutive Ones III |
-| **Two Pointers** | Sorted arrays, inward movement, pair sums | Two Sum II, Container With Most Water, 3Sum |
-| **Fast & Slow Pointers** | Cycle detection, middle of list | Linked List Cycle, Middle of Linked List |
-| **Merge Intervals** | Overlapping intervals | Merge Intervals, Insert Interval |
-| **Cyclic Sort** | Missing numbers in range 1-N | Find All Duplicates, First Missing Positive |
-| **Tree Traversal (DFS/BFS)** | Trees, grids, path finding | Number of Islands, Binary Tree Level Order |
-| **Trie** | Prefix matching, autocomplete | Implement Trie, Word Search II |
-| **Heap / Priority Queue** | Top-K elements, scheduling | Top K Frequent, Merge K Sorted Lists |
-| **Backtracking** | Combinations, permutations, subsets | Subsets, Permutations, N-Queens |
-| **Dynamic Programming** | Overlapping subproblems, optimal substructure | Coin Change, Longest Increasing Subsequence |
-| **Binary Search** | Sorted arrays, search in O(log n) | Search in Rotated Sorted Array |
-| **Bit Manipulation** | XOR, bit operations | Single Number, Counting Bits |
-| **Topological Sort** | Dependency graphs, course schedules | Course Schedule, Alien Dictionary |
-| **Monotonic Stack** | Next greater/smaller element | Daily Temperatures, Largest Rectangle |
-
-</details>
-
-<details>
 <summary><b>⏱️ Recommended Time Allocation</b></summary>
 
 ### Don't struggle forever—but don't give up too early.
@@ -582,94 +554,11 @@ The number of problems you solve matters far less than how much problem-solving 
 </details>
 
 
-<details>
-<summary><b>🧠 Understanding ≠ Learning</b></summary>
-
-One of the easiest traps in technical interview preparation is confusing **recognition with mastery**.
-
-You can watch a video, read an editorial, and feel that everything makes sense — without actually being able to reproduce the reasoning later.
-
-### Understanding
-
-You understand something when you can follow an explanation and recognize why it makes sense.
-
-### Learning
-
-You have learned something when you can **reproduce, explain, and apply the concept independently**, including after some time has passed and in a slightly different problem.
-
-This distinction matters enormously for DSA.
-
-For example:
-
-> "I watched a video about sliding window and everything made sense."
-
-is not the same as:
-
-> "I can recognize when sliding window applies, explain why it works, implement it, analyze its complexity, and adapt it to an unfamiliar problem."
-
-### A practical test
-
-After studying a concept, close the tutorial and ask yourself:
-
-* Can I explain the idea without looking at my notes?
-* Can I implement the basic technique from memory?
-* Can I explain when it should and should not be used?
-* Can I analyze its time and space complexity?
-* Can I solve a new problem using it?
-* Can I explain the solution to someone else?
-
-If the answer is no, that's not failure.
-
-It simply means the material has moved from **exposure** to **practice** — which is exactly where learning happens.
-
-### Avoid the "perfect resource" trap
-
-You may eventually find a video, book, or course that suddenly makes a topic feel much clearer.
-
-That's useful, but don't assume that the resource itself created the understanding.
-
-Often, understanding improves because you've already encountered the concept several times through different explanations, exercises, mistakes, and applications.
-
-Your knowledge is cumulative.
-
-</details>
-
-<details>
-<summary><b>🎯 Focus Before Breadth</b></summary>
-
-A common mistake during DSA preparation is trying to learn too many topics simultaneously.
-
-You open one tab about graphs, another about dynamic programming, another about system design, another about trees — and suddenly you're studying everything while mastering nothing.
-
-### Prefer depth before breadth
-
-When learning a new topic:
-
-1. Learn the fundamental concept.
-2. Solve a small number of representative problems.
-3. Explain the approach in your own words.
-4. Identify gaps in your understanding.
-5. Review only what you need.
-6. Re-solve problems later.
-7. Move to the next topic.
-
-You don't need to master an entire field before moving forward.
-
-But you should avoid constantly switching between unrelated topics simply because another resource looks interesting.
-
-> **One topic understood deeply is usually more valuable than five topics superficially recognized.**
-
-This does not mean your preparation must be rigid. Interleaving and mixed review are useful once you have established a foundation.
-
-The important distinction is:
-
-**exploration is useful; constant context switching is not.**
-
-</details>
-
 
 <details>
 <summary><b>🎯 Mock Interviews: Practice the Real Skill</b></summary>
+
+**Source / inspiration:** [Leandro Moreira](https://github.com/leandromoreira), *Preparação para Entrevistas de Programação*.
 
 Solving LeetCode alone is fundamentally different from solving a problem while another person watches, asks questions, challenges your assumptions, and expects you to communicate your reasoning.
 
@@ -757,8 +646,6 @@ A mock interview should leave you with a concrete answer to:
 
 > **"What should I practice next?"**
 
-**Source / inspiration:** Leandro Moreira, *Preparação para Entrevistas de Programação*.
-
 </details>
 
 
@@ -781,20 +668,6 @@ The amount of time required for each topic depends on:
 If a topic takes longer than expected, that is not necessarily a problem.
 
 ### Use readiness, not the calendar
-
-Before moving on, ask:
-
-* Can I explain the core data structure?
-* Can I implement its basic operations?
-* Can I recognize common patterns involving it?
-* Can I solve representative Easy problems?
-* Can I solve at least some Medium problems?
-* Can I explain my solution without reading notes?
-* Can I analyze time and space complexity?
-
-If the answer is mostly yes, continue.
-
-If not, spend more time practicing.
 
 **The goal is not to finish the roadmap.**
 

@@ -974,7 +974,7 @@ A better approach is to communicate your current reasoning:
 
 Then incorporate the hint and continue reasoning.
 
-The interviewer is also evaluating **how you respond to new information**.
+The interviewer is also evaluating **how you respond to new inFformation**.
 
 ---
 
@@ -995,7 +995,7 @@ Think of the interviewer as a potential teammate who is trying to understand how
 </details>
 
 <details>
-<summary><b>💭 Rejection Is Part of the Process</b></summary>
+<summary><b>💭 Dealing with Rejection ;( </b></summary>
 
 One of the least discussed parts of interview preparation is rejection.
 
@@ -1037,13 +1037,6 @@ Turn the interview into feedback.
 You don't need to study for six hours every day.
 
 A sustainable schedule that you can maintain for months is often more valuable than an intense schedule that lasts two weeks.
-
-For example:
-
-* 3 sessions/week × 2 hours during long-term preparation;
-* 5 sessions/week × 1 hour when an interview is approaching.
-
-These are examples, not universal rules.
 
 The correct schedule depends on your available time, background, and goals.
 
